@@ -8,6 +8,17 @@
 Identity Trust Scoring Platform for Cybersecurity
 </p>
 
+<p align="center">
+  <img src="docs/images/dashboard.png" alt="TrustScore AI Dashboard" width="900">
+</p>
+
+---
+TrustScore AI
+
+Identity Trust Scoring Platform for Cybersecurity
+
+---
+
 
 TrustScore AI is a web-based cybersecurity platform designed to assess user trust based on identity-related security events. The platform analyzes user behavior, calculates dynamic Risk and Trust Scores, and provides explainable security decisions to support identity protection and access control.
 
