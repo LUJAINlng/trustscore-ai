@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: trustscore-db
+    restart: always
+
+    environment:
+      POSTGRES_USER: trustuser
+      POSTGRES_PASSWORD: trustpass
+      POSTGRES_DB: trustscore
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
