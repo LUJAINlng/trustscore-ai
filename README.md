@@ -1,138 +1,65 @@
-# TrustScore AI
+TrustScore AI
 
-An AI-powered Identity Trust Scoring platform that evaluates user identity risk based on login behavior and adaptive security rules.
-
-The platform analyzes authentication events, calculates a dynamic Trust Score, estimates Risk Score, and provides AI-driven security recommendations for identity protection.
+Identity Trust Scoring Platform for Cybersecurity
 
 ---
 
-## Features
+TrustScore AI is a web-based cybersecurity platform designed to assess user trust based on identity-related security events. The platform analyzes user behavior, calculates dynamic Risk and Trust Scores, and provides explainable security decisions to support identity protection and access control.
 
-### Identity Risk Analysis
-
-- Dynamic Trust Score calculation
-- Risk Score Engine
-- Adaptive Access Decisions
-- AI-powered security recommendations
-
-### Employee Intelligence
-
-- Employee Trust Profile
-- Behavioral Analytics
-- Trust Score History
-- Privilege Recommendations
-- Security Awareness Recommendations
-
-### Organization Dashboard
-
-- Executive Overview
-- Employees Risk Dashboard
-- Trust & Risk Timeline
-- Recent Security Events
-- Interactive Analytics
+The project was developed using FastAPI for the backend and React for the frontend, with SQLite as the data store. It combines security analytics with an interactive dashboard to help analysts monitor users, investigate security events, and understand why a specific decision was made.
 
 ---
 
-## Technology Stack
+Main Features
 
-### Backend
+• Dynamic Trust Score
+• Risk Assessment Engine
+• Explainable AI
+• Executive Dashboard
+• Critical Alert Center
+• Identity Investigation Timeline
+• Employee Trust Monitoring
+• Security Event Simulator
 
+---
+
+Technology
+
+Backend
 - FastAPI
 - SQLAlchemy
 - SQLite
-- Pydantic
 
-### Frontend
-
+Frontend
 - React
+- Vite
 - Axios
 - Chart.js
-- CSS
 
 ---
 
-## Project Structure
+Project Structure
 
-```text
-trustscore-ai/
-│
-├── backend/
-│   ├── app/
-│   ├── services/
-│   ├── models/
-│   └── routers/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── styles/
-│
-├── README.md
-└── .gitignore
-```
+React Frontend
+        │
+FastAPI REST API
+        │
+Risk Engine
+        │
+Trust Engine
+        │
+SQLite Database
 
 ---
 
-## API Endpoints
+Future Work
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | /events | Submit a security event |
-| GET | /events | Retrieve all security events |
-| GET | /profile/{username} | Employee profile |
-| GET | /profile/{username}/history | Trust score history |
-| GET | /employees | Organization employees |
+Future improvements include integration with enterprise identity providers, SIEM platforms, machine learning–based risk prediction, and automated security response capabilities.
 
 ---
 
-## Run Backend
+Author
 
-```bash
-cd backend
-source .venv/bin/activate
-uvicorn app.main:app --reload
-```
+Lujain
 
----
-
-## Run Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-## Current Capabilities
-
-- Identity Trust Scoring
-- Behavioral Risk Analysis
-- Adaptive Access Control
-- AI Security Assessment
-- Employee Risk Dashboard
-- Executive Overview
-- Organization Analytics
-- Historical Trust Timeline
-
----
-
-## Future Improvements
-
-- JWT Authentication
-- PostgreSQL Support
-- Docker Deployment
-- Real-time Notifications
-- Machine Learning Risk Models
-- SIEM Integration
-
----
-
-## Author
-
-**Lujain**
-
-Cybersecurity | Identity Security | AI Security
+M.Sc. in Cybersecurity
