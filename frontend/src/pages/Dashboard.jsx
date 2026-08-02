@@ -154,28 +154,36 @@ export default function Dashboard() {
 
   return (
     <main className="app-shell">
-      <div className="dashboard-container">
-        <header className="app-header">
-          <div>
-            <p className="brand-kicker">
-              Identity Security Platform
-            </p>
+  <div className="dashboard-container">
+    <header className="app-header">
+      <div className="header-brand">
+        <img
+          src="/favicon2.png"
+          alt="TrustScore AI"
+          className="header-logo"
+        />
 
-            <h1 className="app-title">
-              TrustScore AI
-            </h1>
+        <div className="header-copy">
+          <p className="brand-kicker">
+            Identity Security Platform
+          </p>
 
-            <p className="app-subtitle">
-              Identity trust scoring, behavioral analytics,
-              security recommendations and adaptive access
-              decisions for modern organizations.
-            </p>
-          </div>
+          <h1 className="app-title">
+            TrustScore AI
+          </h1>
 
-          <span className="version-badge">
-            Version 1.0
-          </span>
-        </header>
+          <p className="app-subtitle">
+            Identity trust scoring, behavioral analytics,
+            security recommendations and adaptive access
+            decisions for modern organizations.
+          </p>
+        </div>
+      </div>
+
+      <span className="version-badge">
+        Version 1.0
+      </span>
+    </header>
 
         <ExecutiveOverview />
         <CriticalAlertCenter refreshKey={events.length} />

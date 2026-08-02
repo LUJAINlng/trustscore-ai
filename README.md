@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="docs/images/logo.png" width="140">
+</p>
+
+<h1 align="center">TrustScore AI</h1>
+
+<p align="center">
+Identity Trust Scoring Platform for Cybersecurity
+</p>
+
+---
 TrustScore AI
 
 Identity Trust Scoring Platform for Cybersecurity
