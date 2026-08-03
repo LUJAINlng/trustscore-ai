@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models.models import Event, User
 from app.models.schemas import EventRequest
+from app.services.ml_service import predict_identity_risk
 from app.services.ai_engine import (
     generate_awareness_recommendation,
     generate_privilege_recommendation,
@@ -20,23 +21,31 @@ from app.services.user_service import (
 
 router = APIRouter()
 
-
 @router.post("/events")
 def receive_event(
     event: EventRequest,
     db: Session = Depends(get_db),
 ):
-    # إنشاء المستخدم إذا لم يكن موجودًا
     user = get_or_create_user(db, event.user)
 
-    # حساب درجة الخطر وأسبابها
     risk, reasons = calculate_risk(event.model_dump())
 
-    # حساب درجة الثقة الجديدة
+    ml_result = predict_identity_risk({
+    "failed_login_count": event.failed_login_count,
+    "impossible_travel": 0,
+    "new_device": int(event.device == "new"),
+    "vpn_detected": int(event.vpn),
+    "tor_network": 0,
+    "privileged_account": int(event.privileged_account),
+    "mfa_enabled": 1,
+    "login_hour": event.hour,
+    "geo_risk": int(event.location == "new_country"),
+    "device_reputation": int(event.device == "new"),
+})
+
     current_score = user.trust_score
     trust_score = max(0, min(100, current_score - risk))
 
-    # اتخاذ القرار
     if trust_score >= 80:
         decision = "Allow"
     elif trust_score >= 50:
@@ -44,21 +53,28 @@ def receive_event(
     else:
         decision = "Block"
 
-    # إنشاء توصيات AI
+    ml_prediction = ml_result["prediction"]
+    ml_confidence = ml_result["confidence"]
+
+    if decision == ml_prediction:
+        hybrid_decision = decision
+        review_required = False
+    else:
+        hybrid_decision = "Manual Review"
+        review_required = True
+
     recommendations = generate_recommendations(
         risk,
         decision,
         reasons,
     )
 
-    # تحديث المستخدم
     update_trust_score(db, user, trust_score)
     user.status = decision
 
     db.commit()
     db.refresh(user)
 
-    # حفظ الحدث
     new_event = Event(
         user=event.user,
         event=event.event,
@@ -77,12 +93,14 @@ def receive_event(
         "user": event.user,
         "risk_score": risk,
         "trust_score": trust_score,
-        "decision": decision,
+        "rule_decision": decision,
+        "ml_prediction": ml_prediction,
+        "ml_confidence": ml_confidence,
+        "hybrid_decision": hybrid_decision,
+        "review_required": review_required,
         "reasons": reasons,
         "recommendations": recommendations,
     }
-
-
 @router.get("/events")
 def get_events(db: Session = Depends(get_db)):
     events = db.query(Event).all()
@@ -294,4 +312,4 @@ def get_profile_history(
             "created_at": event.created_at,
         }
         for event in events
-    ]
+    ] 

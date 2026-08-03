@@ -39,13 +39,26 @@ export default function Dashboard() {
   const [events, setEvents] = useState([]);
 
   const [form, setForm] = useState({
-    user: "",
-    event: "login",
-    device: "known",
-    vpn: false,
-    hour: 12,
-    location: "known",
-  });
+  user: "",
+  event: "login",
+
+  failed_login_count: 0,
+
+  device: "known",
+  location: "known",
+
+  vpn: false,
+  impossible_travel: false,
+  tor_network: false,
+  privileged_account: false,
+  mfa_enabled: true,
+
+  hour: 12,
+
+  geo_risk: 0,
+  device_reputation: 0,
+});
+const [hybridResult, setHybridResult] = useState(null);
 
   const loadEvents = async () => {
     try {
@@ -61,32 +74,36 @@ export default function Dashboard() {
   }, []);
 
   const submitEvent = async () => {
-    if (!form.user.trim()) {
-      alert("Please enter a username");
-      return;
-    }
+  if (!form.user.trim()) {
+    alert("Please enter a username");
+    return;
+  }
 
-    try {
-      await api.post("/events", {
-        ...form,
-        user: form.user.trim(),
-      });
+  try {
+    const response = await api.post("/events", {
+      ...form,
+      user: form.user.trim(),
+    });
 
-      await loadEvents();
+    setHybridResult(response.data);
 
-      setForm({
-        user: "",
-        event: "login",
-        device: "known",
-        vpn: false,
-        hour: 12,
-        location: "known",
-      });
-    } catch (error) {
-      console.error("Submit Event Error:", error);
-      alert("Failed to analyze the event");
-    }
-  };
+    await loadEvents();
+
+    setForm({
+  user: "",
+  event: "login",
+  failed_login_count: 0,
+  device: "known",
+  location: "known",
+  vpn: false,
+  privileged_account: false,
+  hour: 12,
+});
+  } catch (error) {
+    console.error("Submit Event Error:", error);
+    alert("Failed to analyze the event");
+  }
+};
 
   const latest =
     events.length > 0 ? events[events.length - 1] : null;
@@ -196,6 +213,46 @@ export default function Dashboard() {
           setForm={setForm}
           submitEvent={submitEvent}
         />
+        {hybridResult && (
+  <section className="panel">
+    <div className="panel-header">
+      <div>
+        <h2 className="panel-title">
+          Hybrid AI Analysis
+        </h2>
+
+        <p className="panel-description">
+          Combined decision from the rule engine and
+          Random Forest model.
+        </p>
+      </div>
+    </div>
+
+    <div className="hybrid-result-grid">
+      <div>
+        <strong>Rule Decision</strong>
+        <p>{hybridResult.rule_decision}</p>
+      </div>
+
+      <div>
+        <strong>ML Prediction</strong>
+        <p>{hybridResult.ml_prediction}</p>
+      </div>
+
+      <div>
+        <strong>Confidence</strong>
+        <p>
+          {Math.round(hybridResult.ml_confidence * 100)}%
+        </p>
+      </div>
+
+      <div>
+        <strong>Hybrid Decision</strong>
+        <p>{hybridResult.hybrid_decision}</p>
+      </div>
+    </div>
+  </section>
+)}
 
         {latest && (
   <>

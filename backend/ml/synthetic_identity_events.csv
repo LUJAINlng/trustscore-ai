@@ -1,0 +1,3001 @@
+failed_login,new_device,new_country,vpn,midnight_login,decision
+0,1,1,0,1,Block
+1,1,1,0,0,Block
+1,1,1,1,0,Block
+0,1,1,0,0,Block
+0,1,0,1,1,Block
+1,0,0,1,1,Block
+0,1,0,1,1,Block
+1,0,1,0,0,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,0,0,Block
+1,0,1,1,1,Block
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+1,0,0,0,1,Block
+1,1,0,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+1,0,0,1,0,Block
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,0,Require MFA
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+0,1,0,0,0,Require MFA
+0,1,1,0,1,Block
+0,0,1,0,0,Require MFA
+0,1,1,1,1,Block
+1,0,1,0,0,Block
+1,0,0,1,0,Block
+0,1,0,0,1,Block
+1,1,1,1,1,Block
+1,0,0,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,0,1,Block
+0,0,0,1,0,Allow
+1,0,0,0,1,Block
+1,0,0,1,1,Block
+0,1,1,0,1,Block
+0,0,1,1,1,Block
+1,1,0,1,0,Block
+0,1,0,1,1,Block
+1,1,1,1,1,Block
+1,0,0,0,0,Require MFA
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+0,0,0,1,1,Require MFA
+0,1,0,0,1,Require MFA
+0,0,0,1,0,Require MFA
+0,1,1,1,1,Block
+0,0,1,1,0,Require MFA
+1,1,0,1,1,Block
+0,0,1,0,1,Require MFA
+1,0,1,1,0,Block
+1,0,0,1,0,Block
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+0,0,0,1,0,Allow
+1,0,0,0,0,Require MFA
+0,1,0,1,0,Require MFA
+0,1,0,1,0,Require MFA
+1,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,1,0,1,Require MFA
+0,0,1,0,0,Require MFA
+0,1,1,1,1,Block
+1,1,1,0,0,Block
+0,1,0,1,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,0,1,Allow
+1,0,1,0,0,Block
+1,0,1,0,1,Block
+1,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,0,0,0,1,Allow
+1,0,0,0,1,Block
+1,0,1,0,1,Block
+0,0,0,1,0,Allow
+1,0,1,0,0,Block
+1,1,0,1,1,Block
+0,0,0,1,0,Allow
+1,1,0,0,1,Block
+0,1,1,0,0,Block
+0,0,1,0,0,Require MFA
+1,0,1,1,0,Block
+1,0,1,0,0,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Require MFA
+0,0,1,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+1,1,1,0,0,Block
+1,0,1,0,1,Block
+1,1,0,0,1,Block
+1,0,1,1,0,Block
+0,1,1,0,0,Block
+1,0,1,0,0,Block
+0,1,1,0,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+0,1,1,1,0,Block
+1,0,0,1,1,Block
+1,0,0,1,1,Block
+0,1,1,0,0,Block
+0,1,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,1,0,1,1,Block
+0,1,0,1,1,Block
+1,1,1,1,1,Block
+1,0,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,0,0,0,Block
+0,1,0,1,1,Block
+1,1,1,1,0,Block
+1,1,0,0,1,Block
+1,1,0,0,0,Block
+1,0,0,1,1,Block
+1,0,0,1,1,Block
+0,1,1,1,0,Block
+1,0,0,1,0,Block
+1,1,1,0,1,Block
+0,0,0,0,0,Allow
+1,1,0,1,0,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,1,Require MFA
+0,0,0,1,0,Allow
+1,0,0,1,0,Block
+0,0,0,0,1,Require MFA
+0,0,1,0,0,Require MFA
+0,1,1,1,0,Block
+1,1,0,1,0,Block
+1,1,1,0,0,Block
+0,1,1,1,0,Block
+0,1,1,0,0,Block
+1,1,0,0,0,Block
+0,0,1,1,1,Block
+1,1,0,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,1,0,1,Block
+0,1,0,1,1,Block
+0,0,0,1,1,Require MFA
+1,1,1,0,0,Block
+0,1,0,1,1,Block
+1,1,1,0,0,Block
+1,1,1,1,0,Block
+1,1,0,0,1,Block
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+0,0,0,1,0,Require MFA
+0,0,0,1,0,Allow
+0,0,0,1,0,Allow
+1,0,1,1,1,Block
+0,1,0,1,1,Block
+0,0,1,1,0,Require MFA
+0,1,1,1,1,Block
+0,1,1,1,0,Block
+0,1,1,1,1,Block
+0,1,0,1,1,Block
+1,0,1,0,1,Block
+1,0,0,1,0,Block
+1,1,0,0,0,Block
+0,1,0,1,0,Require MFA
+1,1,1,0,1,Block
+0,0,1,1,0,Require MFA
+1,0,1,0,0,Block
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+0,0,1,0,0,Require MFA
+0,1,0,1,0,Block
+1,0,1,0,0,Block
+0,1,0,1,0,Require MFA
+0,1,1,1,1,Block
+0,1,0,0,0,Allow
+0,0,1,0,1,Require MFA
+0,0,0,0,0,Allow
+0,1,0,0,1,Require MFA
+1,0,1,0,1,Block
+1,1,0,1,0,Block
+1,1,0,1,0,Block
+0,0,0,0,0,Allow
+1,1,0,0,0,Block
+0,0,0,0,1,Allow
+0,0,1,1,0,Require MFA
+0,1,0,0,1,Require MFA
+0,1,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,1,1,0,1,Block
+1,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,1,0,Block
+0,0,0,1,1,Require MFA
+0,1,1,1,1,Block
+1,1,1,0,0,Block
+1,1,1,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+0,1,0,1,1,Block
+1,0,1,0,1,Block
+1,0,1,1,0,Block
+0,1,0,1,1,Block
+1,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+0,0,0,1,0,Allow
+0,0,0,0,0,Allow
+0,1,0,0,1,Block
+1,0,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,0,0,1,0,Require MFA
+1,1,1,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,0,0,Block
+0,1,1,1,0,Block
+1,1,1,1,0,Block
+1,0,1,0,1,Block
+1,1,0,1,1,Block
+0,1,0,0,0,Require MFA
+0,1,0,1,0,Block
+1,0,1,0,1,Block
+0,1,0,1,0,Require MFA
+1,0,0,0,0,Require MFA
+0,1,1,0,1,Block
+1,1,1,1,0,Block
+1,0,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,1,1,0,Block
+1,0,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,1,1,1,1,Block
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+0,1,0,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,0,Allow
+1,0,0,1,1,Block
+0,0,0,0,0,Allow
+0,0,1,1,0,Require MFA
+0,1,0,1,0,Require MFA
+0,0,0,0,1,Allow
+0,0,1,1,0,Block
+1,0,0,1,1,Block
+0,0,0,0,0,Allow
+1,0,1,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,0,0,Block
+1,0,1,0,0,Block
+1,0,0,0,0,Require MFA
+0,0,0,0,0,Allow
+0,1,0,0,0,Require MFA
+1,1,1,0,1,Block
+1,1,1,1,0,Block
+1,1,0,0,1,Block
+0,1,1,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,0,1,0,Block
+1,1,1,1,0,Block
+0,0,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,1,1,1,0,Block
+1,0,1,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Require MFA
+0,0,0,0,1,Require MFA
+1,0,1,0,0,Block
+0,1,0,1,0,Require MFA
+0,1,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,0,0,Require MFA
+1,1,1,0,1,Block
+0,0,0,0,0,Allow
+0,0,0,0,1,Allow
+1,0,1,0,0,Block
+0,0,0,0,0,Allow
+1,0,0,0,1,Block
+1,0,0,0,0,Require MFA
+0,0,1,0,1,Require MFA
+1,0,0,1,1,Block
+0,0,1,1,1,Block
+1,0,0,1,0,Block
+0,0,1,1,1,Block
+1,0,0,0,1,Block
+1,1,1,0,0,Block
+1,0,0,1,1,Block
+0,1,1,0,1,Block
+0,1,0,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,1,Require MFA
+1,0,0,1,1,Block
+0,1,0,1,0,Block
+1,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,0,0,0,Allow
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,0,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+0,1,0,0,1,Require MFA
+0,0,0,1,0,Allow
+0,0,1,0,1,Require MFA
+1,1,0,0,0,Block
+1,1,1,1,0,Block
+1,0,1,1,0,Block
+1,0,0,0,0,Require MFA
+1,0,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,1,Block
+1,1,0,1,0,Block
+1,1,1,1,1,Block
+1,0,1,0,1,Block
+0,1,0,0,0,Require MFA
+0,0,0,0,0,Allow
+0,0,1,0,1,Require MFA
+0,0,0,0,0,Allow
+1,1,1,1,1,Block
+1,1,0,0,1,Block
+0,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,0,1,Block
+0,0,0,1,0,Allow
+0,1,1,1,0,Block
+1,1,1,0,1,Block
+1,1,0,1,1,Block
+0,0,1,0,1,Require MFA
+1,0,1,0,0,Block
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+0,1,1,0,0,Block
+1,1,1,1,1,Block
+1,0,1,0,0,Block
+0,0,0,0,1,Allow
+0,1,1,1,0,Block
+1,0,0,1,0,Block
+0,1,0,0,1,Require MFA
+0,0,0,0,1,Allow
+0,1,1,0,1,Block
+1,1,1,0,1,Block
+1,0,0,0,0,Require MFA
+0,0,1,1,1,Block
+1,1,0,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+0,0,1,1,1,Block
+1,1,0,0,1,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,1,Block
+0,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+1,0,0,1,0,Block
+0,1,1,0,0,Require MFA
+1,0,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,1,1,0,1,Block
+1,1,0,0,0,Block
+0,1,1,0,0,Block
+1,1,0,0,1,Block
+1,1,0,1,1,Block
+0,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,1,0,0,0,Require MFA
+1,1,0,0,1,Block
+1,1,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,1,0,0,1,Require MFA
+0,0,1,1,0,Require MFA
+0,1,0,1,1,Block
+1,1,1,1,0,Block
+1,0,0,0,1,Block
+0,1,1,0,0,Block
+1,0,1,0,0,Block
+0,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,1,0,1,Block
+1,1,0,0,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Block
+0,0,1,1,1,Block
+0,1,1,1,1,Block
+1,1,1,0,0,Block
+1,1,1,1,1,Block
+0,0,0,1,0,Require MFA
+1,1,1,0,0,Block
+0,0,1,1,0,Require MFA
+1,0,1,0,1,Block
+0,0,1,1,0,Require MFA
+0,1,1,0,0,Block
+1,1,1,0,0,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,0,0,1,0,Require MFA
+0,0,0,0,0,Allow
+0,1,0,1,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,0,0,1,Block
+0,1,0,0,0,Require MFA
+0,0,1,0,0,Require MFA
+1,0,0,0,1,Block
+1,1,1,0,1,Block
+1,1,0,1,0,Block
+1,1,0,0,0,Block
+1,0,1,0,1,Block
+0,1,1,0,0,Block
+0,1,1,1,0,Block
+1,0,1,0,1,Block
+1,1,1,1,1,Block
+0,1,1,0,1,Block
+1,0,0,1,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,1,0,0,Block
+1,0,0,1,1,Block
+0,0,0,0,1,Allow
+0,0,1,0,0,Allow
+0,1,0,1,1,Block
+1,0,1,0,0,Block
+1,1,0,1,0,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,0,Require MFA
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+0,0,1,0,1,Require MFA
+0,0,1,1,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,0,1,Block
+0,0,0,1,0,Allow
+1,1,1,1,0,Block
+1,1,0,1,1,Block
+0,0,0,0,1,Require MFA
+1,0,1,1,1,Block
+1,0,1,0,0,Block
+0,0,1,1,1,Block
+0,0,1,1,0,Require MFA
+1,1,0,0,0,Block
+1,1,0,0,0,Block
+0,1,0,0,0,Require MFA
+1,0,1,1,0,Block
+1,1,0,1,0,Block
+0,0,0,0,0,Allow
+1,0,0,0,0,Require MFA
+0,1,0,0,1,Block
+1,1,0,0,1,Block
+0,0,0,1,0,Allow
+0,0,0,0,1,Allow
+1,1,1,0,1,Block
+0,1,0,1,1,Block
+1,0,0,0,0,Require MFA
+0,1,1,1,0,Block
+1,1,0,1,0,Block
+1,0,0,0,0,Block
+1,1,0,1,0,Block
+0,1,0,1,1,Block
+0,1,1,1,0,Block
+1,0,0,0,1,Block
+1,0,0,0,1,Block
+1,1,0,0,0,Block
+0,1,0,0,1,Require MFA
+1,0,1,0,0,Block
+0,1,0,1,1,Block
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+0,1,1,0,0,Block
+1,0,1,0,0,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,0,0,1,Block
+1,0,0,1,0,Block
+1,1,0,0,0,Block
+1,0,1,0,1,Block
+1,1,1,0,0,Block
+1,0,0,1,0,Block
+1,1,0,0,1,Block
+0,1,0,1,1,Block
+0,1,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,1,Block
+1,0,0,1,0,Block
+0,0,0,0,0,Allow
+0,0,0,1,0,Allow
+1,1,1,0,1,Block
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+0,0,0,0,0,Allow
+0,1,0,0,0,Require MFA
+1,1,1,0,0,Block
+0,1,0,0,0,Require MFA
+0,0,1,1,0,Block
+0,0,0,1,1,Require MFA
+1,1,0,0,1,Block
+1,1,1,1,1,Block
+1,0,0,0,1,Block
+1,0,0,0,1,Block
+1,0,1,1,1,Block
+0,1,0,1,0,Block
+1,0,0,0,1,Block
+0,1,1,0,0,Block
+0,1,0,1,1,Block
+1,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,1,0,Block
+1,0,1,1,0,Block
+0,0,0,0,1,Allow
+0,0,0,1,0,Require MFA
+1,0,0,1,0,Require MFA
+0,0,0,1,1,Require MFA
+1,0,1,0,1,Block
+1,0,0,0,0,Require MFA
+1,0,0,1,0,Block
+0,0,0,0,1,Allow
+0,0,0,1,0,Require MFA
+0,1,0,1,0,Require MFA
+1,0,1,0,0,Block
+0,0,1,1,1,Block
+0,0,0,1,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,0,1,0,Block
+0,1,0,1,0,Require MFA
+1,1,1,0,1,Block
+0,1,1,1,0,Block
+0,0,0,0,0,Allow
+0,1,1,0,0,Block
+1,0,0,1,1,Block
+0,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+0,1,1,0,1,Block
+1,1,0,0,1,Block
+0,1,0,0,0,Require MFA
+1,0,0,0,1,Block
+1,0,1,0,1,Block
+1,1,0,1,0,Block
+1,0,0,0,1,Block
+1,0,1,1,0,Block
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,1,0,Require MFA
+1,1,0,1,1,Block
+0,0,0,1,0,Allow
+0,0,0,0,0,Allow
+0,0,0,1,0,Require MFA
+1,1,0,0,1,Block
+1,0,0,1,1,Block
+1,1,1,1,0,Block
+0,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Block
+0,1,0,1,1,Block
+1,1,0,0,0,Block
+1,1,0,0,0,Block
+1,1,0,0,0,Block
+0,0,0,1,1,Require MFA
+0,1,0,0,1,Require MFA
+1,1,0,0,1,Block
+0,0,1,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+1,0,1,1,1,Block
+0,1,0,1,1,Block
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+1,0,0,0,0,Require MFA
+1,0,1,0,1,Block
+0,1,0,1,0,Require MFA
+1,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+1,0,0,0,1,Block
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+1,1,0,1,1,Block
+1,0,0,1,1,Block
+1,1,1,0,0,Block
+1,0,0,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,0,1,Block
+1,0,0,0,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,0,0,Block
+1,1,0,0,0,Block
+1,1,1,1,1,Block
+1,1,0,1,1,Block
+0,1,0,1,0,Block
+1,1,1,0,0,Block
+0,0,0,0,1,Allow
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+0,0,0,0,0,Allow
+0,0,1,0,0,Require MFA
+0,0,0,0,0,Allow
+0,0,0,1,1,Require MFA
+0,1,0,0,1,Require MFA
+0,0,1,1,0,Require MFA
+0,0,1,0,0,Require MFA
+0,0,1,1,1,Block
+1,1,1,1,0,Block
+0,1,1,1,1,Block
+0,1,1,0,1,Block
+0,0,1,1,0,Require MFA
+1,1,0,1,0,Block
+0,1,0,0,1,Require MFA
+1,0,0,0,0,Require MFA
+0,1,0,0,1,Require MFA
+0,0,0,0,0,Allow
+0,1,1,0,1,Block
+0,1,1,1,0,Block
+1,0,0,1,1,Block
+0,1,0,1,1,Block
+0,0,0,1,0,Allow
+1,0,1,1,1,Block
+1,1,0,1,1,Block
+1,1,0,0,1,Block
+1,1,0,1,0,Block
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,1,1,0,1,Block
+0,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,0,Block
+1,1,1,1,1,Block
+1,1,1,0,1,Block
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+0,0,1,1,1,Block
+1,1,0,0,1,Block
+1,1,0,1,1,Block
+1,0,1,0,1,Block
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,1,0,0,1,Require MFA
+1,1,1,0,0,Block
+1,0,0,1,1,Block
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+1,0,0,0,1,Block
+0,0,0,0,1,Allow
+1,0,0,1,1,Block
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,1,0,1,Block
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,1,Block
+1,1,1,0,1,Block
+1,1,0,0,1,Block
+0,0,0,1,1,Require MFA
+1,0,1,0,1,Block
+1,1,1,0,1,Block
+0,1,0,1,0,Block
+1,0,0,0,1,Block
+0,0,0,1,0,Require MFA
+1,1,0,0,0,Block
+0,1,1,0,0,Block
+1,0,1,0,0,Block
+1,0,0,0,1,Require MFA
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+1,0,1,0,1,Block
+0,0,0,0,0,Allow
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+1,0,1,0,0,Block
+0,0,0,1,1,Require MFA
+0,1,0,1,1,Block
+1,0,1,0,1,Block
+1,0,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,1,Block
+0,1,1,0,0,Block
+1,1,0,1,1,Block
+0,0,0,0,0,Allow
+1,1,0,0,0,Block
+0,0,0,1,1,Require MFA
+0,1,0,0,0,Require MFA
+1,0,0,0,1,Block
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+1,0,1,0,0,Block
+1,1,1,1,0,Block
+1,0,0,1,1,Block
+1,0,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,1,Block
+1,0,1,0,0,Block
+0,1,1,1,1,Block
+1,1,0,1,0,Block
+1,1,0,0,0,Block
+0,1,0,1,1,Block
+1,0,0,0,1,Block
+0,1,1,0,1,Block
+1,0,1,1,0,Block
+0,1,1,1,0,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,1,Block
+1,1,1,1,1,Block
+0,1,0,0,0,Allow
+1,0,1,1,1,Block
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+1,0,0,0,0,Require MFA
+0,1,0,0,1,Require MFA
+1,1,0,1,0,Block
+1,1,0,1,1,Block
+1,0,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,1,1,1,0,Block
+0,0,0,0,0,Allow
+1,0,1,1,0,Block
+0,1,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,1,0,1,1,Block
+0,1,0,1,1,Block
+0,1,1,1,0,Block
+1,1,1,0,1,Block
+0,1,0,1,0,Block
+0,1,1,1,0,Block
+1,0,0,0,0,Require MFA
+1,0,1,1,1,Block
+0,0,1,1,1,Block
+1,1,1,0,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+1,1,1,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,0,0,1,Block
+1,1,0,1,0,Block
+1,1,1,1,1,Block
+0,0,0,1,0,Require MFA
+1,0,1,1,1,Block
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+0,1,1,1,1,Block
+0,0,0,1,0,Allow
+1,0,1,0,0,Block
+1,0,1,1,1,Block
+0,1,1,1,1,Block
+1,0,1,0,0,Block
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+0,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,0,1,0,Block
+1,0,0,1,0,Block
+1,0,1,0,0,Block
+1,0,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,1,0,1,Block
+0,1,0,0,1,Block
+1,1,1,0,0,Block
+0,0,1,1,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,0,1,0,Block
+0,0,1,1,1,Block
+0,0,1,0,0,Allow
+0,0,1,0,1,Require MFA
+1,0,1,0,0,Block
+1,1,0,0,1,Block
+0,1,1,1,0,Block
+0,0,0,1,0,Allow
+1,1,0,1,0,Block
+0,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,0,1,1,1,Block
+0,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,0,Block
+1,0,1,0,0,Block
+1,0,0,1,0,Block
+1,1,1,0,0,Block
+1,0,0,1,0,Block
+0,0,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,0,1,1,1,Block
+1,1,0,0,1,Block
+0,0,1,1,1,Block
+1,0,0,1,0,Block
+1,0,0,0,0,Require MFA
+0,0,1,0,0,Require MFA
+0,1,1,1,1,Block
+1,1,1,0,0,Block
+1,1,0,0,0,Block
+0,0,1,1,0,Require MFA
+1,0,1,0,0,Block
+0,1,1,0,0,Block
+1,0,0,0,1,Block
+1,1,1,0,1,Block
+0,1,1,0,0,Block
+1,0,1,1,0,Block
+1,1,0,1,1,Block
+1,1,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,1,0,1,Block
+0,0,0,1,0,Allow
+0,1,0,0,0,Require MFA
+0,1,1,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,1,1,0,Block
+1,0,1,1,0,Block
+0,1,0,1,1,Block
+0,1,0,0,1,Block
+1,1,1,0,1,Block
+0,1,0,1,0,Require MFA
+1,0,1,0,0,Block
+1,1,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,0,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,0,Block
+1,0,0,0,0,Block
+1,1,0,0,1,Block
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+0,0,0,0,0,Allow
+0,0,1,1,0,Require MFA
+1,1,1,0,0,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,0,Require MFA
+1,0,0,0,1,Block
+1,0,1,0,0,Block
+1,1,1,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+1,1,0,0,1,Block
+1,1,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,1,Block
+0,0,0,1,1,Require MFA
+0,0,1,0,0,Require MFA
+0,1,1,1,0,Block
+0,0,0,0,1,Allow
+1,1,0,1,1,Block
+1,1,0,1,0,Block
+1,1,0,1,1,Block
+1,0,0,1,1,Block
+1,0,1,1,0,Block
+1,0,1,0,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,1,0,Block
+0,1,1,0,1,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Block
+1,0,0,1,1,Block
+0,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+0,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,0,0,Require MFA
+1,0,1,1,1,Block
+1,1,1,0,1,Block
+1,1,1,1,0,Block
+1,1,0,1,0,Block
+0,0,0,1,1,Require MFA
+0,0,1,1,0,Require MFA
+1,1,1,1,1,Block
+0,1,0,1,0,Block
+0,1,1,0,0,Require MFA
+0,1,1,0,0,Require MFA
+1,0,1,1,0,Block
+0,1,1,1,1,Block
+1,1,0,0,0,Block
+0,1,0,1,0,Require MFA
+0,1,0,1,0,Require MFA
+0,0,0,1,0,Require MFA
+0,1,1,0,1,Block
+1,0,1,1,1,Block
+0,1,1,0,1,Block
+0,0,0,0,1,Allow
+1,1,1,1,0,Block
+1,1,0,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,0,0,1,Block
+1,1,0,0,1,Block
+0,0,0,1,0,Require MFA
+1,1,1,1,1,Block
+1,1,0,0,1,Block
+1,1,0,0,0,Block
+0,0,0,1,0,Require MFA
+0,0,1,0,1,Require MFA
+0,1,0,0,0,Require MFA
+1,1,0,0,1,Block
+1,1,0,1,1,Block
+0,0,0,0,0,Allow
+0,1,1,0,0,Block
+1,1,1,0,1,Block
+1,1,0,0,0,Block
+1,0,1,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,0,0,Block
+0,0,0,0,1,Allow
+1,1,0,0,1,Block
+0,1,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,1,1,1,Block
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+0,0,0,1,0,Require MFA
+1,1,1,1,0,Block
+0,1,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+0,1,1,0,1,Block
+1,0,0,1,1,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,1,Block
+0,0,1,1,0,Require MFA
+0,0,1,0,0,Require MFA
+0,0,0,0,0,Allow
+1,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+1,1,0,1,0,Block
+1,1,1,0,0,Block
+0,1,0,1,0,Block
+1,1,1,1,0,Block
+1,0,0,0,0,Require MFA
+0,0,1,1,0,Block
+0,1,0,0,1,Require MFA
+0,1,0,1,1,Block
+1,1,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,0,0,1,1,Block
+1,1,1,0,1,Block
+1,1,1,1,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+0,0,0,0,1,Allow
+0,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+0,0,1,1,0,Require MFA
+0,0,0,1,0,Require MFA
+0,1,1,0,1,Block
+0,1,1,0,0,Block
+1,1,0,1,0,Block
+0,1,1,0,0,Block
+1,0,0,0,1,Block
+1,0,0,0,0,Require MFA
+1,0,1,0,0,Block
+1,1,1,0,1,Block
+1,1,0,1,1,Block
+1,1,1,0,0,Block
+1,0,1,1,1,Block
+1,0,1,0,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,1,0,Require MFA
+1,0,0,1,1,Block
+0,1,1,0,0,Block
+1,1,1,0,0,Block
+0,0,0,1,1,Require MFA
+0,0,1,0,0,Require MFA
+1,1,1,1,0,Block
+1,0,1,0,0,Block
+1,0,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,1,1,Block
+1,0,1,0,1,Block
+1,1,0,0,1,Block
+1,0,1,1,0,Block
+1,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,1,Block
+1,0,1,1,1,Block
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+1,0,1,0,1,Block
+0,0,0,1,0,Require MFA
+1,1,1,0,0,Block
+0,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+0,0,1,1,1,Block
+0,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,1,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,0,1,0,1,Require MFA
+1,1,1,1,0,Block
+1,0,1,1,0,Block
+1,0,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,1,0,Allow
+0,0,1,1,1,Block
+1,1,0,1,0,Block
+0,0,1,0,0,Allow
+0,1,1,0,0,Block
+0,1,1,0,0,Require MFA
+1,0,1,1,1,Block
+0,0,1,1,1,Block
+0,0,1,1,1,Block
+1,0,0,0,1,Block
+1,1,0,0,1,Block
+0,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+1,1,1,1,1,Block
+0,1,1,0,0,Block
+0,0,1,1,0,Block
+1,0,1,1,0,Block
+0,0,0,1,0,Allow
+0,0,1,0,1,Require MFA
+1,0,0,1,0,Block
+1,0,1,0,0,Block
+0,0,1,1,0,Require MFA
+1,0,1,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,1,0,Block
+1,1,0,0,0,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,1,0,1,0,Require MFA
+1,1,1,1,1,Block
+0,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,1,1,1,0,Block
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+0,0,0,0,1,Allow
+1,1,0,1,1,Block
+1,0,0,1,0,Block
+0,1,1,0,1,Block
+0,0,1,1,0,Require MFA
+1,0,0,0,1,Block
+0,1,1,0,0,Block
+1,1,1,0,0,Block
+1,1,0,1,0,Block
+0,0,1,1,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,1,0,Block
+0,1,0,1,1,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+1,0,1,0,1,Block
+1,1,1,0,0,Block
+1,1,1,0,0,Block
+0,1,1,0,0,Block
+1,1,1,0,1,Block
+1,0,0,1,1,Block
+1,1,0,0,1,Block
+1,1,0,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,0,0,Block
+0,0,0,1,1,Require MFA
+1,0,0,1,1,Block
+0,0,0,0,0,Allow
+0,1,1,1,0,Block
+0,1,1,1,1,Block
+1,1,0,1,0,Block
+1,0,0,0,1,Block
+0,1,0,1,1,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,0,Allow
+0,1,1,0,1,Block
+1,0,1,1,0,Block
+0,0,1,0,0,Require MFA
+0,0,0,0,0,Allow
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+0,0,0,1,0,Allow
+1,0,0,1,0,Block
+0,0,1,0,0,Require MFA
+0,0,1,0,0,Require MFA
+0,1,0,1,1,Block
+0,0,1,1,1,Block
+0,0,1,1,0,Require MFA
+1,0,1,1,1,Block
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+0,0,1,0,0,Require MFA
+0,1,1,1,0,Block
+0,1,1,0,0,Block
+0,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,0,0,Block
+1,0,1,0,1,Block
+1,0,0,0,1,Block
+1,1,0,0,1,Block
+1,0,1,1,0,Block
+0,0,0,0,1,Allow
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+1,1,0,0,1,Block
+0,1,0,0,1,Block
+1,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+1,1,0,0,1,Block
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+0,1,1,0,1,Block
+1,0,1,0,0,Block
+1,0,0,0,1,Require MFA
+0,0,0,0,1,Allow
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+1,1,0,1,1,Block
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,0,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,0,0,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Block
+0,1,1,0,0,Block
+1,0,1,0,1,Block
+0,0,0,1,0,Require MFA
+0,0,0,1,1,Require MFA
+1,0,0,1,0,Block
+0,0,1,0,1,Require MFA
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+1,1,1,0,1,Block
+0,1,0,0,1,Require MFA
+0,0,1,0,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+1,0,1,0,1,Block
+1,0,1,0,0,Block
+0,1,1,1,1,Block
+0,0,0,1,0,Allow
+0,0,0,1,0,Allow
+0,0,0,0,1,Allow
+0,0,1,1,1,Block
+0,1,1,1,1,Block
+0,0,0,1,0,Require MFA
+0,0,0,0,1,Allow
+1,1,0,1,1,Block
+1,0,1,0,0,Block
+1,0,0,0,1,Block
+0,1,0,1,1,Block
+0,0,0,1,0,Require MFA
+0,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,0,0,0,1,Block
+1,0,0,0,1,Require MFA
+0,1,0,1,1,Block
+0,0,0,0,1,Allow
+0,0,1,1,0,Require MFA
+0,1,1,0,1,Block
+1,0,1,1,0,Block
+1,1,1,1,1,Block
+1,0,1,1,0,Block
+1,1,0,1,0,Block
+1,0,1,1,0,Block
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+1,1,1,0,1,Block
+0,1,0,1,0,Require MFA
+1,0,0,1,1,Block
+1,0,0,0,0,Require MFA
+1,0,0,1,1,Block
+1,1,1,0,0,Block
+1,1,1,1,0,Block
+1,1,0,1,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,1,1,Block
+1,0,1,0,0,Block
+1,1,0,0,0,Block
+0,0,1,1,1,Block
+1,1,0,0,1,Block
+0,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,1,1,1,Block
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+0,0,0,1,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,0,1,Block
+1,1,0,0,0,Block
+1,1,0,1,0,Block
+0,1,1,1,0,Block
+1,0,1,1,1,Block
+0,0,0,0,0,Allow
+1,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+0,0,1,0,1,Require MFA
+1,0,1,0,1,Block
+1,1,1,1,0,Block
+1,1,0,0,0,Block
+1,0,0,1,0,Block
+1,0,0,1,0,Block
+0,0,0,1,1,Require MFA
+0,1,1,1,1,Block
+0,0,0,0,0,Allow
+0,1,0,0,0,Require MFA
+0,0,1,1,0,Block
+1,0,1,1,1,Block
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+1,0,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,0,1,1,0,Require MFA
+0,1,0,1,1,Block
+1,0,1,1,0,Block
+0,0,0,1,0,Allow
+0,0,1,0,1,Require MFA
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+1,0,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,0,1,1,0,Require MFA
+1,0,1,1,0,Block
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Require MFA
+0,0,1,1,1,Block
+1,1,1,0,0,Block
+0,1,1,1,1,Block
+0,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,0,1,Require MFA
+1,0,0,0,0,Require MFA
+0,1,1,1,1,Block
+0,1,0,1,0,Block
+0,1,0,1,0,Block
+1,1,1,1,0,Block
+1,0,1,0,0,Block
+1,0,0,0,1,Require MFA
+1,1,0,0,1,Block
+1,0,0,1,0,Block
+1,1,1,0,1,Block
+0,1,1,0,0,Block
+1,1,1,1,0,Block
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,0,1,1,Block
+0,0,0,1,1,Require MFA
+0,1,1,0,0,Block
+1,1,1,1,1,Block
+0,1,0,1,0,Require MFA
+0,1,0,0,1,Require MFA
+1,0,0,0,1,Block
+0,0,1,0,0,Allow
+1,1,1,1,0,Block
+0,0,0,0,0,Allow
+0,0,0,1,0,Allow
+1,1,0,1,0,Block
+1,1,0,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,1,Block
+1,0,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,0,1,0,1,Block
+0,1,0,1,1,Block
+1,0,1,0,1,Block
+1,0,0,0,1,Block
+1,1,1,1,1,Block
+1,1,0,0,1,Block
+0,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,1,0,0,Block
+1,1,0,0,1,Block
+1,1,1,0,1,Block
+0,1,0,0,0,Require MFA
+1,0,1,0,0,Block
+1,0,0,0,1,Block
+1,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+1,1,1,0,1,Block
+1,0,1,0,1,Block
+0,1,1,0,0,Block
+0,0,0,0,0,Allow
+0,1,0,1,0,Block
+0,0,0,1,0,Require MFA
+1,0,1,0,1,Block
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,1,Block
+0,0,1,0,1,Require MFA
+1,0,0,1,1,Block
+0,1,0,1,0,Block
+0,0,0,0,1,Allow
+1,0,0,1,1,Block
+0,1,0,1,1,Block
+1,1,0,0,1,Block
+1,1,0,0,1,Block
+1,0,0,1,0,Block
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,1,0,1,1,Block
+0,1,1,0,1,Block
+1,0,1,1,0,Block
+0,0,0,1,0,Allow
+0,0,1,1,0,Require MFA
+1,0,1,1,0,Block
+0,0,1,1,1,Block
+1,1,0,1,1,Block
+1,0,0,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,1,1,1,Block
+1,0,1,0,1,Block
+0,1,1,1,0,Block
+0,1,1,0,0,Block
+0,1,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,0,1,1,1,Block
+0,1,1,0,1,Block
+0,1,0,0,1,Require MFA
+0,0,0,1,0,Require MFA
+0,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+0,0,0,0,1,Allow
+0,1,1,1,1,Block
+0,0,0,1,0,Allow
+0,1,0,0,1,Require MFA
+1,1,1,1,0,Block
+0,1,0,0,1,Require MFA
+0,0,1,0,0,Require MFA
+0,0,0,1,1,Require MFA
+1,1,0,0,1,Block
+1,1,0,0,0,Block
+1,1,1,0,0,Block
+0,0,0,1,0,Allow
+0,0,1,0,0,Require MFA
+0,1,0,0,1,Require MFA
+1,0,0,1,1,Block
+1,1,1,1,1,Block
+1,0,1,0,0,Block
+1,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,1,1,Block
+0,0,0,1,0,Require MFA
+0,0,0,0,1,Allow
+1,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+0,1,0,0,1,Require MFA
+1,0,1,0,1,Block
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+1,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+1,0,0,0,0,Require MFA
+0,1,1,0,0,Block
+1,1,0,0,0,Block
+1,0,0,1,0,Block
+1,0,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,0,1,1,Block
+1,0,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,1,0,Require MFA
+0,1,0,0,1,Block
+0,0,0,1,0,Require MFA
+0,1,1,0,1,Block
+0,0,1,0,0,Require MFA
+1,0,1,0,0,Block
+0,0,1,0,0,Require MFA
+0,0,0,0,0,Allow
+0,0,0,1,1,Require MFA
+1,1,0,0,0,Block
+0,0,1,1,0,Require MFA
+1,1,0,0,0,Block
+1,0,0,0,0,Require MFA
+1,0,1,1,1,Block
+1,0,1,0,1,Block
+0,0,0,0,1,Allow
+1,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,1,1,0,Block
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+1,0,1,0,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,1,0,Block
+1,0,1,1,0,Block
+1,0,1,1,1,Block
+0,1,1,0,0,Require MFA
+1,1,1,0,1,Block
+0,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,0,1,Require MFA
+1,0,1,0,1,Block
+0,1,0,1,0,Require MFA
+0,1,1,0,1,Block
+0,1,1,0,1,Block
+1,1,1,0,1,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,0,0,0,1,Block
+1,0,1,0,0,Block
+1,1,1,0,0,Block
+0,0,1,1,0,Require MFA
+0,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,0,0,Block
+0,1,1,0,0,Block
+0,1,1,1,0,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,0,Require MFA
+0,1,1,0,0,Block
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,1,1,0,0,Block
+0,0,1,0,1,Require MFA
+0,0,0,0,0,Allow
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+0,0,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,1,1,1,Block
+1,0,0,0,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+1,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+1,0,1,1,1,Block
+1,1,1,1,1,Block
+0,0,0,1,0,Require MFA
+0,0,0,0,0,Allow
+1,1,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,0,Block
+0,1,0,1,0,Block
+0,0,1,0,0,Require MFA
+0,0,0,0,1,Require MFA
+0,1,0,1,0,Block
+0,0,0,0,0,Allow
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+0,1,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,1,0,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,0,1,0,Require MFA
+0,0,1,1,0,Require MFA
+0,1,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,0,1,0,0,Require MFA
+0,1,1,0,1,Block
+1,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,1,1,0,Require MFA
+1,0,0,1,1,Block
+1,1,1,0,0,Block
+0,1,0,0,0,Require MFA
+0,1,1,1,0,Block
+0,1,1,0,0,Block
+1,0,1,0,0,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Block
+0,1,1,1,1,Block
+1,0,1,0,0,Block
+1,1,0,1,0,Block
+0,0,0,1,1,Require MFA
+0,1,0,1,0,Block
+1,0,0,1,0,Block
+0,1,0,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,0,1,Block
+0,0,0,1,0,Allow
+0,0,1,0,0,Allow
+0,1,0,1,1,Block
+0,0,0,0,0,Allow
+1,1,0,1,1,Block
+1,1,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,1,0,1,1,Block
+1,1,0,0,1,Block
+0,0,0,0,1,Allow
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+0,0,1,1,1,Block
+1,1,0,0,0,Block
+0,0,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+1,1,1,1,0,Block
+0,1,1,0,1,Block
+1,0,0,1,0,Block
+0,1,0,1,0,Block
+0,0,0,0,0,Allow
+0,1,1,1,1,Block
+1,1,0,0,0,Block
+1,1,1,0,0,Block
+0,1,1,0,0,Require MFA
+0,1,1,1,0,Block
+0,1,0,1,0,Block
+1,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+1,1,1,1,0,Block
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+0,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,1,0,Block
+1,0,0,1,1,Block
+1,1,1,1,0,Block
+0,1,1,1,0,Block
+0,0,0,1,1,Require MFA
+1,0,1,1,0,Block
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+1,1,1,1,1,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,0,Require MFA
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+1,1,0,1,1,Block
+0,0,1,1,1,Block
+1,1,0,0,0,Block
+1,1,0,0,0,Block
+1,0,0,1,1,Block
+1,0,1,0,1,Block
+0,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,1,0,Block
+0,1,1,1,1,Block
+0,1,0,1,1,Block
+1,0,1,1,1,Block
+1,0,0,0,1,Require MFA
+0,0,1,1,0,Require MFA
+1,0,1,1,1,Block
+0,0,0,1,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,0,Block
+0,1,0,1,1,Block
+1,0,1,0,1,Block
+0,0,0,1,1,Require MFA
+1,1,0,1,0,Block
+0,0,1,1,1,Block
+1,1,0,1,0,Block
+0,0,1,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,1,Block
+1,1,0,1,1,Block
+0,0,1,0,0,Require MFA
+1,1,1,0,0,Block
+1,0,0,0,1,Require MFA
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+0,1,0,1,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,0,0,Require MFA
+0,1,0,1,1,Block
+0,0,0,1,0,Allow
+1,0,0,1,0,Block
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,1,0,0,0,Require MFA
+0,0,0,0,1,Allow
+1,0,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+1,1,0,0,1,Block
+1,1,1,1,1,Block
+0,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,1,1,1,Block
+1,1,1,0,0,Block
+0,1,0,1,1,Block
+1,1,1,0,1,Block
+0,1,1,0,1,Block
+0,1,1,0,0,Require MFA
+1,1,1,1,1,Block
+0,0,0,0,0,Allow
+1,0,1,1,0,Block
+1,0,1,0,0,Block
+1,0,0,0,0,Require MFA
+1,0,0,1,0,Block
+0,1,1,1,1,Block
+0,0,0,0,1,Allow
+1,0,0,0,0,Require MFA
+1,0,0,0,0,Require MFA
+0,0,1,1,1,Block
+1,0,0,0,1,Block
+0,0,0,0,1,Require MFA
+1,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,1,0,0,Block
+0,1,1,1,0,Block
+0,1,1,0,1,Block
+1,1,1,0,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,1,Block
+1,0,1,1,1,Block
+0,0,0,1,0,Allow
+0,0,1,1,0,Require MFA
+0,1,1,0,0,Block
+1,0,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,1,0,1,Block
+0,0,0,1,0,Require MFA
+0,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,1,0,Block
+0,0,0,0,1,Allow
+0,0,0,1,1,Require MFA
+1,0,1,1,1,Block
+1,1,1,0,1,Block
+1,0,1,0,0,Block
+0,0,1,0,1,Require MFA
+1,1,1,1,1,Block
+1,1,0,1,0,Block
+0,0,0,0,1,Allow
+1,0,1,1,1,Block
+1,0,1,0,0,Block
+0,1,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,0,0,1,Require MFA
+1,1,0,0,0,Block
+1,0,0,0,0,Require MFA
+1,0,0,0,1,Block
+1,1,0,1,0,Block
+0,0,1,0,0,Allow
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+1,0,0,1,1,Block
+0,1,1,0,0,Require MFA
+0,1,1,1,1,Block
+1,1,0,0,1,Block
+1,0,0,0,1,Block
+1,0,0,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+0,1,1,1,0,Block
+1,1,1,1,1,Block
+0,1,0,1,0,Require MFA
+0,0,1,1,0,Require MFA
+1,0,0,1,0,Block
+0,1,1,0,1,Block
+1,0,1,0,1,Block
+1,0,1,0,0,Block
+1,1,0,1,1,Block
+0,1,1,1,0,Block
+0,1,1,1,0,Block
+1,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,0,0,1,0,Allow
+0,0,0,1,0,Require MFA
+1,0,0,0,1,Block
+0,1,1,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,0,1,Block
+0,1,0,1,0,Require MFA
+1,1,1,1,1,Block
+1,0,0,1,1,Block
+1,0,1,1,0,Block
+1,1,0,1,0,Block
+0,1,0,1,0,Block
+0,0,1,1,0,Block
+0,0,0,0,0,Allow
+0,1,0,1,0,Block
+1,1,0,1,1,Block
+1,0,1,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,0,0,0,Block
+1,1,1,1,1,Block
+0,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,0,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,0,1,Block
+1,0,0,0,1,Block
+1,0,1,1,0,Block
+1,0,1,0,0,Block
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+0,0,0,0,0,Allow
+0,1,1,1,1,Block
+1,1,1,0,0,Block
+1,1,0,1,0,Block
+1,1,0,0,0,Block
+1,0,1,0,1,Block
+1,1,0,0,1,Block
+1,0,0,1,0,Block
+1,0,0,0,0,Require MFA
+0,0,1,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,0,1,Require MFA
+0,0,0,1,1,Require MFA
+1,0,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,1,1,0,Block
+0,0,0,1,0,Require MFA
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+1,0,1,1,0,Block
+1,0,0,1,1,Block
+1,1,0,0,1,Block
+0,1,0,0,0,Require MFA
+1,0,0,1,1,Block
+0,1,1,1,0,Block
+0,1,0,0,1,Require MFA
+1,0,0,0,1,Block
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+0,1,0,0,1,Require MFA
+0,1,1,0,0,Require MFA
+0,0,1,1,1,Block
+1,0,1,1,1,Block
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+1,1,1,1,0,Block
+0,0,0,0,1,Allow
+0,0,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+0,0,0,0,1,Allow
+0,1,0,1,1,Block
+0,0,1,1,1,Block
+0,1,1,0,0,Require MFA
+1,0,0,0,1,Require MFA
+0,0,1,0,0,Allow
+0,0,1,0,1,Require MFA
+0,1,1,0,1,Block
+0,0,0,0,0,Allow
+1,0,0,1,1,Block
+0,1,1,0,0,Require MFA
+0,1,0,1,1,Block
+0,0,1,0,0,Require MFA
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+0,0,1,1,0,Block
+0,1,1,0,1,Block
+0,0,1,0,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+0,0,0,0,1,Allow
+0,0,0,0,1,Allow
+0,0,0,0,0,Allow
+1,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+0,0,1,0,1,Require MFA
+1,1,0,0,1,Block
+0,1,0,1,0,Require MFA
+0,1,0,1,0,Require MFA
+0,0,1,0,1,Require MFA
+0,1,1,0,1,Block
+0,1,1,1,1,Block
+0,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+0,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,1,0,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+0,1,1,0,1,Block
+1,1,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,1,1,Block
+0,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+1,1,1,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,1,Block
+1,0,1,1,1,Block
+1,0,1,0,1,Block
+0,0,0,1,0,Require MFA
+1,1,0,0,1,Block
+1,1,1,1,0,Block
+1,0,0,1,1,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Block
+1,0,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,1,1,0,0,Block
+0,1,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,1,0,0,Allow
+0,1,1,0,1,Block
+1,1,0,0,1,Block
+0,1,0,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+1,0,1,0,1,Block
+1,1,0,1,1,Block
+1,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,0,1,1,Block
+0,1,0,1,0,Block
+0,1,0,0,0,Require MFA
+0,1,1,1,0,Block
+0,0,0,1,0,Allow
+0,0,1,1,0,Block
+0,0,1,0,1,Require MFA
+1,1,1,1,1,Block
+0,1,0,1,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,1,1,1,Block
+1,0,1,0,1,Block
+0,1,1,0,0,Block
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+1,1,0,1,1,Block
+0,1,1,1,1,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,1,Block
+0,1,1,0,1,Block
+1,1,0,1,1,Block
+0,0,0,0,0,Allow
+0,1,0,0,1,Require MFA
+1,0,0,1,0,Block
+1,1,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,1,0,1,Block
+0,0,0,0,1,Allow
+1,0,0,1,0,Block
+1,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+0,0,0,0,0,Allow
+0,1,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+1,0,0,1,0,Block
+1,0,1,0,1,Block
+0,0,0,1,1,Require MFA
+1,1,0,0,0,Block
+0,1,1,1,1,Block
+0,0,1,0,1,Require MFA
+0,0,0,1,0,Allow
+0,1,0,0,1,Require MFA
+0,1,1,0,1,Block
+1,0,0,0,1,Block
+1,0,0,1,1,Block
+0,0,1,0,1,Require MFA
+1,0,0,0,1,Block
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,0,1,Block
+1,1,0,0,1,Block
+1,1,0,0,1,Block
+0,1,1,1,1,Block
+0,0,1,1,0,Require MFA
+0,1,1,1,0,Block
+0,0,1,1,1,Block
+0,1,1,0,1,Block
+0,1,0,1,0,Require MFA
+1,1,0,1,1,Block
+0,1,0,1,0,Require MFA
+1,1,1,1,0,Block
+0,0,0,0,0,Allow
+1,1,1,0,0,Block
+0,1,0,0,1,Require MFA
+1,0,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,0,0,Allow
+0,1,0,0,0,Allow
+1,1,0,0,1,Block
+0,1,0,1,0,Block
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,0,1,Allow
+0,0,1,0,1,Require MFA
+0,0,1,1,0,Require MFA
+0,1,0,1,0,Require MFA
+0,0,1,0,1,Require MFA
+1,0,0,0,0,Require MFA
+0,0,0,0,1,Allow
+0,1,0,1,1,Block
+1,1,0,0,0,Block
+1,1,0,1,1,Block
+0,0,1,0,1,Block
+0,1,0,0,0,Require MFA
+0,1,0,1,1,Block
+1,1,0,1,1,Block
+1,0,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,1,0,1,Block
+0,0,1,1,1,Block
+1,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+0,0,1,1,1,Block
+0,1,1,1,0,Block
+0,0,1,1,1,Block
+1,1,0,0,1,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,1,Require MFA
+1,0,1,0,1,Block
+1,0,0,0,0,Require MFA
+0,1,1,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,0,1,Block
+0,0,0,0,0,Allow
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+1,1,1,1,0,Block
+0,1,1,1,1,Block
+1,0,0,1,1,Block
+1,1,0,0,1,Block
+0,1,1,0,0,Block
+1,0,0,0,1,Require MFA
+1,1,0,0,1,Block
+1,0,1,0,0,Block
+0,0,0,1,0,Allow
+0,0,0,0,1,Allow
+1,0,0,0,1,Require MFA
+0,1,0,1,0,Block
+1,1,0,0,1,Block
+1,0,0,1,1,Block
+1,1,0,1,0,Block
+0,1,0,1,1,Block
+1,1,0,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,0,Block
+0,0,1,0,0,Allow
+0,1,0,1,1,Block
+1,1,1,1,0,Block
+1,1,1,1,1,Block
+1,1,1,0,0,Block
+0,0,1,1,0,Block
+1,0,0,1,0,Block
+1,0,1,1,1,Block
+1,0,0,0,1,Block
+1,1,1,1,0,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,1,Require MFA
+1,1,0,1,1,Block
+1,1,0,0,0,Block
+0,1,0,0,1,Require MFA
+0,1,1,1,1,Block
+1,1,0,1,1,Block
+1,1,1,0,1,Block
+0,0,0,0,0,Allow
+1,1,1,0,1,Block
+1,1,0,0,1,Block
+0,1,0,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Require MFA
+0,1,0,1,1,Block
+1,1,1,1,1,Block
+0,1,1,0,1,Block
+0,0,0,0,0,Allow
+0,1,0,1,1,Block
+1,1,0,0,0,Block
+1,0,1,1,1,Block
+0,1,1,1,1,Block
+0,0,0,0,0,Allow
+0,1,0,0,1,Require MFA
+1,1,0,0,1,Block
+1,1,1,0,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,1,0,Allow
+1,1,0,1,0,Block
+1,1,0,0,1,Block
+0,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,1,1,Block
+1,0,0,1,1,Block
+0,1,0,0,1,Require MFA
+0,0,1,0,0,Allow
+1,0,1,1,0,Block
+1,0,0,0,1,Block
+1,1,0,0,1,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,1,Block
+0,1,1,1,1,Block
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,0,0,0,Require MFA
+1,1,1,0,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,1,0,Block
+0,0,1,1,1,Block
+0,0,1,1,1,Block
+1,0,0,0,1,Block
+1,0,1,0,1,Block
+1,1,0,0,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,0,0,Require MFA
+0,1,0,0,1,Require MFA
+1,1,1,1,0,Block
+1,0,1,0,1,Block
+1,1,1,0,0,Block
+0,0,0,1,0,Allow
+0,0,1,1,1,Block
+0,1,0,1,0,Block
+1,1,1,0,1,Block
+1,0,1,0,0,Block
+0,1,1,0,0,Block
+1,1,1,0,1,Block
+1,1,0,1,1,Block
+0,0,1,1,1,Block
+0,1,1,1,1,Block
+1,1,0,1,1,Block
+1,1,1,0,0,Block
+0,1,0,0,1,Require MFA
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+1,1,1,1,0,Block
+1,1,0,1,0,Block
+1,0,1,0,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Block
+0,1,0,0,1,Require MFA
+1,1,0,1,1,Block
+0,0,1,0,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,1,0,1,Block
+0,0,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,0,1,Allow
+0,1,0,1,0,Block
+0,1,1,0,1,Block
+1,0,1,0,0,Block
+0,1,0,1,1,Block
+0,0,1,1,0,Require MFA
+1,0,1,1,0,Block
+0,1,1,0,0,Block
+1,0,0,1,0,Block
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+0,0,1,0,0,Require MFA
+0,1,0,1,1,Block
+1,1,1,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,0,0,Block
+0,1,0,1,0,Block
+0,0,0,1,0,Allow
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+1,1,0,0,0,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,1,Block
+1,1,1,0,1,Block
+0,0,0,1,0,Allow
+0,0,1,0,0,Require MFA
+1,0,0,0,1,Block
+0,1,1,0,0,Block
+1,1,0,1,1,Block
+0,1,0,0,0,Require MFA
+0,0,1,0,0,Require MFA
+0,0,1,1,0,Require MFA
+0,1,0,0,0,Require MFA
+1,1,1,1,0,Block
+1,1,0,1,0,Block
+1,0,0,0,1,Require MFA
+1,0,0,1,1,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,1,Block
+1,0,0,1,1,Block
+1,1,0,0,0,Block
+1,0,1,0,0,Block
+1,1,0,0,0,Block
+1,1,1,1,0,Block
+1,1,1,0,1,Block
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,0,0,0,0,Allow
+1,1,1,0,0,Block
+0,1,0,1,0,Require MFA
+0,1,0,1,0,Block
+1,0,0,1,0,Block
+1,0,1,0,1,Block
+1,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+1,0,1,1,0,Block
+0,1,1,0,0,Block
+1,0,1,1,0,Block
+0,1,0,1,1,Block
+1,0,1,0,0,Block
+1,0,0,0,1,Block
+1,1,0,1,1,Block
+1,1,1,0,0,Block
+0,1,1,1,1,Block
+0,1,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,1,Block
+1,0,0,1,0,Block
+1,1,0,0,1,Block
+0,0,1,0,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,0,0,1,Require MFA
+1,1,1,1,0,Block
+1,1,0,1,0,Block
+0,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+0,1,0,1,1,Block
+1,0,0,0,1,Block
+0,0,0,1,1,Require MFA
+0,0,0,1,0,Allow
+1,1,0,0,1,Block
+1,0,0,1,0,Block
+1,0,1,0,1,Block
+0,1,0,1,1,Block
+1,0,0,1,0,Block
+1,0,0,1,1,Block
+1,0,1,1,1,Block
+0,1,1,0,1,Block
+1,0,1,1,1,Block
+1,1,0,0,0,Block
+1,0,1,1,1,Block
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+0,0,0,1,0,Allow
+0,0,0,0,0,Allow
+1,0,1,1,1,Block
+0,0,0,1,0,Allow
+1,1,0,0,0,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+1,1,1,0,1,Block
+0,1,1,1,1,Block
+0,1,0,1,0,Require MFA
+0,0,0,0,1,Allow
+0,1,0,1,1,Block
+1,0,0,1,1,Block
+0,1,0,0,0,Require MFA
+0,1,0,1,0,Require MFA
+0,0,0,1,1,Require MFA
+0,0,1,1,0,Require MFA
+1,0,0,0,0,Require MFA
+1,0,1,0,0,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,0,Block
+1,1,1,1,1,Block
+0,1,1,0,0,Block
+0,0,0,1,1,Require MFA
+0,0,0,1,0,Require MFA
+0,1,1,0,1,Block
+0,1,1,0,0,Block
+0,1,0,0,1,Require MFA
+1,0,1,1,1,Block
+0,1,0,0,1,Require MFA
+1,1,0,1,0,Block
+0,0,0,1,1,Require MFA
+0,0,1,1,0,Require MFA
+1,0,1,0,0,Block
+1,0,0,1,0,Block
+1,0,1,0,1,Block
+0,1,1,0,1,Block
+0,1,0,0,1,Require MFA
+0,0,1,1,1,Block
+0,1,1,1,0,Block
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+0,0,1,1,0,Require MFA
+1,0,0,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,1,0,1,Block
+0,1,1,1,1,Block
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+1,0,1,1,0,Block
+1,1,1,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+0,0,0,0,1,Require MFA
+1,0,1,0,1,Block
+0,0,1,0,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,1,1,Block
+0,1,1,1,1,Block
+0,1,0,1,0,Block
+0,1,1,1,0,Block
+1,1,0,0,1,Block
+0,0,1,1,1,Block
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+0,1,1,0,0,Block
+1,0,1,1,0,Block
+1,0,1,1,1,Block
+1,1,0,0,1,Block
+0,1,0,1,1,Block
+0,1,0,1,0,Block
+0,1,1,0,0,Require MFA
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+0,1,0,0,1,Require MFA
+1,1,1,1,0,Block
+0,0,1,1,1,Block
+1,0,0,1,0,Block
+1,0,1,0,1,Block
+1,0,1,0,1,Block
+0,1,1,1,0,Block
+1,0,1,0,0,Block
+0,1,1,0,1,Block
+1,0,1,0,0,Block
+0,1,1,1,0,Block
+1,0,1,0,1,Block
+0,1,0,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,0,0,1,Block
+1,1,1,0,0,Block
+0,1,0,1,0,Require MFA
+1,1,1,0,0,Block
+0,0,0,0,0,Allow
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+0,0,1,0,0,Require MFA
+0,1,0,0,0,Require MFA
+0,0,1,1,0,Require MFA
+0,0,1,0,0,Require MFA
+0,1,1,0,1,Block
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+1,1,1,0,1,Block
+0,1,0,0,0,Require MFA
+0,1,0,0,0,Require MFA
+1,1,1,1,1,Block
+1,1,1,1,0,Block
+1,1,0,1,1,Block
+1,0,0,0,0,Require MFA
+1,1,0,0,0,Block
+1,0,1,0,1,Block
+0,0,0,1,1,Require MFA
+0,1,0,1,1,Block
+0,1,0,0,1,Block
+0,0,0,1,0,Require MFA
+1,1,0,1,0,Block
+1,1,0,1,0,Block
+1,1,1,0,1,Block
+0,0,1,1,0,Require MFA
+0,1,0,0,1,Require MFA
+0,0,0,0,0,Allow
+1,1,0,0,1,Block
+0,0,1,1,0,Block
+0,1,0,1,1,Block
+1,0,0,0,0,Require MFA
+1,0,1,0,1,Block
+1,0,0,1,0,Block
+0,1,0,1,1,Block
+0,0,0,0,1,Allow
+0,1,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+1,0,1,0,1,Block
+0,1,0,1,0,Block
+0,1,0,0,1,Require MFA
+1,0,0,1,0,Block
+0,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,1,0,1,1,Block
+0,1,1,0,0,Block
+0,0,0,0,0,Allow
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+0,0,1,1,1,Block
+0,1,1,0,1,Block
+0,1,1,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,1,0,0,Block
+1,0,1,1,1,Block
+0,1,0,0,0,Require MFA
+0,0,0,0,1,Allow
+0,0,0,0,0,Allow
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Require MFA
+1,1,0,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,0,0,1,Block
+1,1,1,1,1,Block
+1,0,0,1,0,Block
+0,1,0,0,0,Require MFA
+1,1,1,1,1,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,0,Require MFA
+0,0,1,1,0,Require MFA
+0,1,1,1,1,Block
+1,1,0,1,0,Block
+1,0,1,1,1,Block
+1,0,0,1,0,Block
+0,0,1,0,1,Require MFA
+0,0,0,1,0,Require MFA
+1,0,0,1,1,Block
+0,0,1,0,1,Require MFA
+1,1,1,1,0,Block
+1,0,0,1,0,Block
+1,1,1,1,0,Block
+1,0,0,1,0,Block
+0,0,1,0,0,Require MFA
+0,1,1,1,1,Block
+0,1,1,1,1,Block
+0,1,1,0,1,Block
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+1,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,0,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,0,0,1,0,Allow
+0,1,0,1,0,Block
+0,1,0,1,0,Block
+0,0,1,0,0,Require MFA
+0,1,1,1,0,Block
+1,1,1,0,0,Block
+0,0,1,1,1,Require MFA
+0,0,0,0,0,Allow
+1,1,1,1,1,Block
+1,1,0,0,0,Block
+1,0,0,1,0,Block
+0,0,0,1,0,Require MFA
+1,0,1,0,1,Block
+1,1,0,1,1,Block
+0,0,0,0,0,Allow
+0,1,0,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,1,0,0,Require MFA
+0,0,1,0,1,Require MFA
+1,1,1,1,1,Block
+1,0,1,1,0,Block
+1,1,1,1,0,Block
+1,0,1,0,0,Block
+1,1,0,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,1,0,1,Require MFA
+1,1,1,0,1,Block
+0,1,0,0,0,Require MFA
+0,1,0,1,0,Require MFA
+1,0,1,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,1,Require MFA
+0,1,1,1,1,Block
+1,1,0,0,1,Block
+0,1,1,0,0,Block
+1,1,0,1,0,Block
+1,1,0,0,0,Block
+1,1,1,0,0,Block
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,1,0,1,1,Block
+1,1,1,1,1,Block
+0,1,0,1,1,Block
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+0,0,1,0,0,Require MFA
+1,1,0,1,1,Block
+1,1,0,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,0,1,0,Allow
+1,0,1,1,1,Block
+0,0,0,0,0,Allow
+0,1,1,1,0,Block
+0,1,0,1,1,Block
+0,1,1,1,1,Block
+1,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,1,1,Block
+0,0,0,0,1,Allow
+1,0,0,1,1,Block
+0,1,0,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,1,1,1,Block
+0,1,1,0,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+1,1,0,1,1,Block
+1,0,0,0,1,Block
+1,0,1,0,0,Block
+1,0,0,1,0,Block
+0,1,1,0,0,Require MFA
+0,1,0,1,0,Block
+0,1,0,1,0,Require MFA
+0,1,0,0,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,1,0,0,Block
+1,0,0,0,1,Block
+1,1,0,1,1,Block
+1,0,0,1,0,Block
+1,0,1,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,1,1,1,Block
+1,1,1,1,0,Block
+0,1,1,1,1,Block
+0,1,1,1,0,Block
+1,0,1,1,0,Block
+0,0,0,0,0,Allow
+1,0,1,0,1,Block
+1,0,1,1,0,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,1,Require MFA
+0,1,1,0,1,Block
+0,0,1,0,0,Allow
+0,1,1,1,0,Block
+1,0,0,1,0,Block
+0,0,0,0,1,Allow
+0,1,1,1,0,Block
+0,0,0,1,1,Require MFA
+1,0,1,1,0,Block
+0,1,1,1,1,Block
+0,0,0,0,1,Require MFA
+1,1,1,0,1,Block
+0,0,0,1,1,Require MFA
+0,1,0,1,1,Block
+0,0,0,1,0,Require MFA
+0,0,1,1,1,Block
+0,1,1,1,1,Block
+1,0,0,0,1,Block
+0,1,1,1,0,Block
+0,0,1,0,0,Allow
+0,1,1,0,1,Block
+1,1,1,0,1,Block
+1,0,1,1,1,Block
+0,0,1,0,0,Require MFA
+0,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+0,0,0,1,1,Require MFA
+0,0,0,0,1,Allow
+0,1,1,1,1,Block
+1,1,1,0,0,Block
+0,0,1,1,0,Require MFA
+0,0,0,1,1,Require MFA
+0,1,0,0,1,Require MFA
+1,0,0,0,0,Require MFA
+1,0,1,0,1,Block
+0,1,0,1,0,Require MFA
+0,0,0,1,0,Allow
+1,1,1,0,1,Block
+1,0,0,1,1,Block
+0,1,1,0,1,Block
+1,0,1,1,1,Block
+1,1,0,0,1,Block
+0,0,0,0,1,Allow
+1,0,0,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,0,Require MFA
+0,1,0,1,1,Block
+0,0,0,0,0,Allow
+1,0,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,1,0,1,Block
+0,0,1,0,1,Block
+1,1,0,1,0,Block
+1,1,1,0,0,Block
+1,1,0,0,0,Block
+0,1,1,1,0,Block
+1,1,0,0,1,Block
+1,1,1,0,1,Block
+1,1,1,0,1,Block
+0,1,1,0,0,Block
+1,1,0,0,0,Block
+0,0,1,1,1,Block
+0,1,1,0,1,Block
+0,1,1,0,0,Block
+0,1,1,1,1,Block
+0,1,0,0,1,Require MFA
+0,0,0,1,1,Require MFA
+0,1,1,0,0,Block
+1,0,1,1,0,Block
+0,0,1,1,1,Block
+1,0,1,0,1,Block
+1,1,1,1,0,Block
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+0,0,0,0,0,Allow
+1,0,0,1,0,Block
+1,1,1,1,1,Block
+0,0,1,1,0,Require MFA
+0,1,1,0,1,Block
+1,1,0,1,1,Block
+0,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,0,1,1,1,Block
+1,0,0,0,1,Block
+0,1,0,1,1,Block
+1,0,0,1,0,Block
+0,1,1,0,0,Block
+1,0,1,1,1,Block
+1,0,1,1,0,Block
+0,0,0,0,1,Allow
+0,1,0,0,1,Require MFA
+1,1,1,0,0,Block
+0,0,0,0,1,Allow
+0,1,1,1,0,Block
+0,1,0,1,0,Block
+1,1,1,1,0,Block
+0,1,1,1,1,Block
+1,0,1,0,1,Block
+1,0,0,1,1,Block
+0,1,1,1,0,Block
+1,0,1,0,1,Block
+1,0,1,0,0,Block
+0,0,0,1,1,Require MFA
+1,1,1,1,0,Block
+0,0,0,1,0,Allow
+0,0,0,0,1,Require MFA
+0,1,1,0,0,Block
+1,0,1,0,1,Block
+1,0,0,1,0,Block
+0,0,0,1,0,Allow
+1,0,1,0,1,Block
+1,1,1,0,0,Block
+1,1,0,1,1,Block
+1,0,1,1,0,Block
+0,1,1,1,1,Block
+1,1,1,1,1,Block
+0,1,0,1,0,Block
+0,1,1,1,0,Block
+0,1,1,1,1,Block
+1,0,1,1,1,Block
+1,0,1,0,0,Block
+0,1,0,1,0,Block
+0,1,0,1,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,0,1,0,Block
+0,0,0,0,0,Allow
+1,1,0,0,1,Block
+0,0,1,0,1,Require MFA
+0,1,1,0,0,Block
+1,1,1,1,1,Block
+0,1,1,1,1,Block
+0,0,0,0,1,Allow
+0,1,0,1,1,Block
+1,1,0,1,1,Block
+0,1,0,1,1,Block
+0,1,0,1,0,Require MFA
+0,0,1,1,0,Require MFA
+1,1,1,1,1,Block
+1,1,1,1,1,Block
+1,1,0,1,0,Block
+0,1,1,0,1,Block
+1,0,1,1,0,Block
+0,1,0,0,0,Require MFA
+1,0,0,1,1,Block
+1,0,1,1,1,Block
+1,1,0,1,0,Block
+1,0,1,1,1,Block
+1,0,0,1,1,Block
+0,1,0,1,0,Require MFA
+1,1,1,1,0,Block
+1,0,0,1,1,Block
+1,0,0,0,1,Block
+1,0,0,1,0,Block
+0,1,0,1,0,Block
+1,0,1,1,0,Block
+0,1,0,1,1,Block
+1,1,0,1,1,Block
+1,1,1,0,1,Block
+0,0,1,0,0,Require MFA
+1,1,0,0,0,Block
+1,0,1,1,0,Block
+1,0,0,1,0,Block
+0,0,1,1,0,Require MFA
+0,0,1,1,1,Block
+1,1,1,0,0,Block
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+1,0,1,1,1,Block
+0,0,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,0,0,1,0,Require MFA
+1,0,0,1,1,Block
+1,1,1,1,0,Block
+1,1,0,0,1,Block
+1,0,1,0,1,Block
+0,1,1,0,0,Block
+0,1,1,0,1,Block
+0,0,0,0,0,Allow
+1,0,1,0,0,Block
+0,0,1,0,1,Require MFA
+1,1,0,0,0,Block
+0,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+0,1,1,0,1,Block
+0,1,1,1,0,Block
+0,1,0,0,0,Require MFA
+0,0,1,1,0,Require MFA
+1,1,1,0,1,Block
+1,1,0,0,1,Block
+1,1,1,0,1,Block
+0,1,0,0,1,Require MFA
+1,1,1,0,1,Block
+1,1,1,0,0,Block
+1,0,0,0,0,Require MFA
+0,0,0,1,1,Require MFA
+1,0,0,1,0,Block
+1,0,1,0,0,Block
+0,1,0,0,0,Require MFA
+0,1,1,1,0,Block
+1,1,0,1,1,Block
+0,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,0,1,0,Block
+0,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Require MFA
+1,0,0,0,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,0,1,1,Block
+0,1,0,1,1,Block
+1,1,1,1,0,Block
+1,0,1,0,1,Block
+1,1,0,0,1,Block
+1,1,0,1,0,Block
+0,1,0,1,1,Block
+1,0,1,1,1,Block
+1,0,0,1,0,Block
+1,1,1,1,0,Block
+1,0,1,0,0,Block
+1,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+0,0,1,0,0,Require MFA
+0,1,0,0,1,Require MFA
+0,0,0,1,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,1,1,1,Block
+0,0,1,0,1,Require MFA
+0,1,0,1,0,Block
+1,0,0,1,0,Block
+1,1,1,0,0,Block
+1,0,1,0,0,Block
+1,0,0,0,1,Block
+1,1,1,1,1,Block
+1,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,0,1,1,Block
+0,0,1,0,0,Require MFA
+0,0,1,1,1,Block
+0,1,1,0,0,Block
+0,1,0,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,1,1,0,Block
+1,0,0,1,0,Block
+0,0,1,1,1,Block
+1,0,0,1,0,Block
+0,0,1,0,1,Require MFA
+0,1,1,0,1,Block
+1,0,1,1,1,Block
+0,0,0,0,1,Allow
+1,1,0,0,0,Block
+1,1,1,0,0,Block
+0,0,0,1,1,Require MFA
+0,1,1,1,0,Block
+1,0,1,1,1,Block
+1,1,1,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,0,Require MFA
+0,0,1,0,0,Require MFA
+1,1,0,1,0,Block
+1,0,1,1,0,Block
+0,0,1,0,1,Require MFA
+1,1,1,0,1,Block
+1,0,0,1,0,Block
+0,1,1,1,1,Block
+0,1,1,0,1,Block
+1,0,1,0,1,Block
+1,0,1,1,1,Block
+0,1,1,1,0,Block
+0,0,1,1,1,Block
+1,0,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,1,1,0,Block
+1,0,0,0,0,Require MFA
+1,1,0,0,1,Block
+0,0,0,1,0,Allow
+0,1,1,0,1,Block
+0,1,1,1,1,Block
+1,0,0,0,0,Require MFA
+0,1,0,0,1,Require MFA
+0,0,1,0,1,Require MFA
+0,0,0,0,1,Require MFA
+0,1,0,1,0,Block
+0,1,0,1,0,Require MFA
+1,1,1,1,0,Block
+1,0,0,0,1,Block
+0,0,0,1,1,Require MFA
+0,0,1,0,1,Require MFA
+0,0,0,0,0,Allow
+1,0,0,0,1,Require MFA
+0,1,1,0,0,Block
+1,0,1,0,1,Block
+0,1,0,0,1,Require MFA
+0,0,0,0,0,Allow
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+1,0,1,0,1,Block
+1,0,0,0,1,Block
+1,0,1,0,0,Block
+1,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+0,0,0,0,0,Allow
+0,0,1,0,1,Require MFA
+0,0,1,0,0,Require MFA
+0,0,1,0,1,Require MFA
+0,0,0,0,0,Allow
+0,0,0,0,1,Allow
+1,1,0,1,1,Block
+0,0,0,1,0,Allow
+1,0,0,1,0,Block
+0,0,0,0,1,Allow
+1,1,1,0,0,Block
+1,0,1,0,0,Block
+0,0,1,0,1,Require MFA
+0,0,1,0,0,Require MFA
+1,0,0,0,1,Require MFA
+1,0,1,0,1,Block
+0,1,0,0,0,Require MFA
+1,0,1,1,0,Block
+1,0,1,1,0,Block
+0,1,0,1,0,Require MFA
+0,0,1,0,0,Require MFA
+0,0,1,0,1,Require MFA
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+1,1,1,1,0,Block
+1,1,0,0,0,Block
+0,1,1,1,0,Block
+0,1,0,1,0,Require MFA
+0,1,1,1,1,Block
+0,1,0,1,1,Block
+1,1,0,0,1,Block
+1,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+1,0,1,0,0,Block
+1,1,0,0,0,Block
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+1,1,0,0,1,Block
+1,1,0,1,1,Block
+1,1,1,1,0,Block
+0,0,1,0,1,Require MFA
+1,0,1,0,1,Block
+0,0,1,1,1,Block
+1,0,1,1,0,Block
+0,1,1,0,0,Block
+0,0,1,1,0,Require MFA
+1,0,0,0,0,Require MFA
+0,0,1,1,1,Block
+0,1,0,1,1,Block
+1,0,1,1,0,Block
+0,0,0,0,1,Allow
+1,1,1,0,1,Block
+0,1,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,1,1,1,Block
+0,1,0,0,1,Block
+0,0,0,1,1,Require MFA
+1,0,0,1,1,Block
+1,1,1,0,1,Block
+0,0,1,1,1,Block
+1,1,0,0,0,Block
+1,1,0,1,1,Block
+1,1,0,1,1,Block
+0,1,1,1,0,Block
+1,0,0,0,1,Block
+1,1,1,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,0,Require MFA
+1,1,0,0,1,Block
+1,0,1,1,1,Block
+0,0,0,0,1,Allow
+1,0,1,1,0,Block
+1,0,1,1,1,Block
+0,1,1,1,0,Block
+1,0,1,1,0,Block
+0,0,1,1,0,Require MFA
+1,1,0,1,1,Block
+1,1,0,1,1,Block
+1,0,0,1,0,Block
+0,0,1,0,0,Require MFA
+1,1,1,0,0,Block
+0,1,0,1,0,Block
+1,1,0,0,0,Block
+1,1,1,1,1,Block
+0,0,0,0,0,Allow
+0,1,1,0,0,Block
+0,0,1,1,0,Require MFA
+1,0,0,1,1,Block
+0,1,0,0,0,Require MFA
+0,1,0,0,0,Require MFA
+0,0,1,1,1,Block
+0,0,0,0,0,Allow
+0,1,0,0,0,Require MFA
+0,0,1,1,1,Block
+0,1,0,1,1,Block
+1,0,1,1,1,Block
+0,1,0,1,0,Require MFA
+1,0,0,1,0,Block
+1,0,0,1,1,Block
+1,0,0,0,1,Block
+0,1,0,0,1,Block
+0,1,1,0,1,Block
+1,1,0,1,1,Block
+1,1,1,1,1,Block
+1,0,1,0,1,Block
+0,1,1,1,1,Block
+0,1,1,0,1,Block
+0,1,0,1,1,Block
+0,1,0,0,0,Require MFA
+1,1,1,0,1,Block
+0,1,1,0,0,Require MFA
+0,1,0,0,0,Require MFA
+1,0,1,1,0,Block
+1,1,1,0,1,Block
+0,0,1,0,0,Require MFA
+0,1,0,1,0,Require MFA
+1,0,0,0,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,1,0,Block
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+0,0,0,0,0,Allow
+0,1,0,1,1,Block
+1,1,0,1,1,Block
+0,0,0,1,1,Require MFA
+0,0,0,1,1,Require MFA
+0,1,1,0,1,Block
+1,1,1,0,1,Block
+0,0,1,1,0,Require MFA
+0,1,1,1,1,Block
+0,0,0,0,0,Allow
+0,1,1,0,1,Block
+1,0,0,0,1,Block
+0,0,1,0,1,Require MFA
+1,0,0,0,1,Block
+0,1,0,1,0,Require MFA
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+1,1,1,0,0,Block
+1,1,1,1,0,Block
+0,1,0,1,0,Block
+1,1,0,1,1,Block
+1,0,1,0,0,Block
+1,0,1,0,1,Block
+1,1,1,0,0,Block
+1,0,1,1,0,Block
+1,0,1,0,0,Block
+1,0,1,1,0,Block
+1,1,1,0,1,Block
+0,1,0,1,1,Block
+0,1,1,0,1,Block
+0,0,0,0,0,Allow
+0,0,0,1,1,Require MFA
+0,1,1,1,1,Block
+0,0,0,1,1,Require MFA
+0,1,1,0,1,Block
+0,0,1,0,1,Require MFA
+1,0,0,0,1,Block
+1,0,0,1,0,Block
+1,1,1,0,0,Block
+0,1,1,0,1,Block
+0,0,1,1,1,Block
+1,1,0,0,0,Block
+0,1,1,0,0,Block
+1,1,0,0,1,Block
+0,1,0,1,1,Block
+0,0,0,0,0,Allow
+1,1,0,0,1,Block
+0,1,1,0,1,Block
+0,0,1,1,1,Block
+1,0,0,1,1,Block
+0,1,1,0,0,Require MFA
+1,1,0,0,0,Block
+0,0,1,0,1,Require MFA
+0,0,0,1,0,Allow
+1,1,0,0,0,Block
+0,0,1,0,0,Require MFA
+1,0,1,0,1,Block
+1,1,1,1,1,Block
+1,1,1,1,0,Block
+0,0,0,1,1,Require MFA
+1,0,0,0,0,Require MFA
+1,0,1,0,0,Block
+1,0,1,0,1,Block
+0,1,0,0,1,Require MFA
+1,0,0,1,0,Block
+0,0,1,1,0,Require MFA
+1,0,0,0,1,Block
+0,1,0,1,0,Require MFA
+1,1,1,0,0,Block
+1,1,0,1,0,Block
+0,0,0,1,0,Allow
+1,1,1,0,1,Block
+1,0,0,1,0,Block
+0,1,1,1,0,Block
+0,1,1,0,0,Block
+1,1,0,0,0,Block
+0,0,1,1,0,Require MFA
+0,1,1,0,0,Block
+1,1,0,0,0,Block
+0,1,1,1,1,Block
+1,0,0,1,1,Block
+0,1,0,1,1,Block
+1,1,1,0,0,Block
+0,0,1,1,1,Require MFA
+1,1,1,0,0,Block
+1,0,1,1,1,Block
+0,1,1,1,0,Block
+0,1,0,0,1,Require MFA
+1,0,0,1,0,Block
+1,0,1,1,0,Block
+1,1,1,1,0,Block
+0,0,0,0,1,Require MFA
+1,0,0,1,0,Block
+1,0,1,0,0,Block
+0,1,0,0,1,Require MFA
+0,1,0,0,0,Require MFA
+0,1,1,1,0,Block
+1,0,0,1,0,Block
+0,0,1,1,0,Require MFA
+0,1,1,0,0,Block
+1,1,1,1,0,Block
+0,1,1,0,1,Block
+1,1,1,0,0,Block
+1,1,1,1,1,Block
+1,0,0,1,0,Block
+1,0,1,1,1,Block
+1,1,1,0,0,Block
+1,1,0,1,0,Block
+1,1,0,1,0,Block
+0,1,0,1,1,Block
+0,0,0,0,1,Allow
+1,0,0,0,1,Block
+0,1,1,1,1,Block
+1,1,0,1,0,Block
+1,0,0,1,1,Block
+1,0,0,1,1,Block
+0,1,0,0,1,Require MFA
+0,1,1,1,1,Block
+0,1,0,0,0,Require MFA
+1,0,1,1,0,Block

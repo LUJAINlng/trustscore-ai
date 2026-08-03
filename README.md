@@ -13,28 +13,25 @@ Identity Trust Scoring Platform for Cybersecurity
 </p>
 
 ---
-TrustScore AI
-
-Identity Trust Scoring Platform for Cybersecurity
-
----
 
 
 TrustScore AI is a web-based cybersecurity platform designed to assess user trust based on identity-related security events. The platform analyzes user behavior, calculates dynamic Risk and Trust Scores, and provides explainable security decisions to support identity protection and access control.
 
-The project was developed using FastAPI for the backend and React for the frontend, with SQLite as the data store. It combines security analytics with an interactive dashboard to help analysts monitor users, investigate security events, and understand why a specific decision was made.
+The project was developed using FastAPI for the backend and React for the frontend, with SQLite as the data store. It combines security analytics with an interactive dashboard to help analysts monitor employee identity risk, evaluate trust scores, receive AI-driven security recommendations, and support access control decisions through explainable security analytics.
+
 
 ---
 
 Main Features
 
-• Dynamic Trust Score
-• Risk Assessment Engine
-• Explainable AI
-• Executive Dashboard
+• Dynamic Trust Score Engine
+• Identity Risk Assessment
+• Explainable Security Decisions
+• Organization Security Overview
 • Critical Alert Center
-• Identity Investigation Timeline
 • Employee Trust Monitoring
+• User Risk Analysis
+• AI Security Recommendations
 • Security Event Simulator
 
 ---
@@ -60,9 +57,9 @@ React Frontend
         │
 FastAPI REST API
         │
-Risk Engine
+Identity Risk Engine
         │
-Trust Engine
+Trust Score Engine
         │
 SQLite Database
 
@@ -78,4 +75,4 @@ Author
 
 Lujain
 
-M.Sc. in Cybersecurity
+M.Sc. Cybersecurity

@@ -5,6 +5,9 @@ class EventRequest(BaseModel):
     user: str
     event: str
     device: str
+    location: str
+
+    failed_login_count: int = 0
     vpn: bool = False
-    hour: int | None = None
-    location: str | None = None
+    privileged_account: bool = False
+    hour: int = 12

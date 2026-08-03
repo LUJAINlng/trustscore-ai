@@ -1,0 +1,75 @@
+{
+  "accuracy": 0.995,
+  "classification_report": {
+    "Allow": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "Block": {
+      "precision": 1.0,
+      "recall": 0.99,
+      "f1-score": 0.9949748743718593,
+      "support": 500.0
+    },
+    "Require MFA": {
+      "precision": 0.9836065573770492,
+      "recall": 1.0,
+      "f1-score": 0.9917355371900827,
+      "support": 300.0
+    },
+    "accuracy": 0.995,
+    "macro avg": {
+      "precision": 0.9945355191256832,
+      "recall": 0.9966666666666667,
+      "f1-score": 0.9955701371873141,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.9950819672131147,
+      "recall": 0.995,
+      "f1-score": 0.9950080983429543,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Allow",
+    "Require MFA",
+    "Block"
+  ],
+  "confusion_matrix": [
+    [
+      200,
+      0,
+      0
+    ],
+    [
+      0,
+      300,
+      0
+    ],
+    [
+      0,
+      5,
+      495
+    ]
+  ],
+  "training_samples": 4000,
+  "testing_samples": 1000,
+  "total_samples": 5000,
+  "dataset_type": "scenario-based synthetic",
+  "scenario_count": 10,
+  "scenarios": [
+    "Brute Force Attack",
+    "Compromised Device",
+    "Impossible Travel",
+    "New Device Login",
+    "Normal Login",
+    "Privileged Account Anomaly",
+    "Risky Geographic Login",
+    "TOR Network Access",
+    "Trusted Midnight Login",
+    "VPN Login"
+  ]
+}
