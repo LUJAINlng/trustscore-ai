@@ -8,7 +8,6 @@ import SummaryCards from "../components/SummaryCards";
 import AIExplanation from "../components/AIExplanation";
 import AIRecommendations from "../components/AIRecommendations";
 import SecurityEventForm from "../components/SecurityEventForm";
-import IdentityTimeline from "../components/IdentityTimeline";
 import RiskBreakdown from "../components/RiskBreakdown";
 import CriticalAlertCenter from "../components/CriticalAlertCenter";
 import {
@@ -224,106 +223,13 @@ export default function Dashboard() {
 
     <RiskBreakdown latest={latest} />
 
-    <IdentityTimeline
-      events={events}
-      username={latest.user}
-    />
+    
   </>
 )}
 
-        <section className="panel">
-          <div className="panel-header">
-            <div>
-              <h2 className="panel-title">
-                Trust and Risk Timeline
-              </h2>
+        
 
-              <p className="panel-description">
-                Historical relationship between identity trust
-                and security risk.
-              </p>
-            </div>
-          </div>
-
-          {events.length > 0 ? (
-            <div className="chart-container">
-              <Line
-                data={chartData}
-                options={chartOptions}
-              />
-            </div>
-          ) : (
-            <div className="empty-state">
-              No event history is currently available.
-            </div>
-          )}
-        </section>
-
-        <section className="panel">
-          <div className="panel-header">
-            <div>
-              <h2 className="panel-title">
-                Recent Security Events
-              </h2>
-
-              <p className="panel-description">
-                Latest identity and access events processed by
-                the platform.
-              </p>
-            </div>
-          </div>
-
-          <div className="table-wrapper">
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>User</th>
-                  <th>Event</th>
-                  <th>Risk</th>
-                  <th>Trust</th>
-                  <th>Decision</th>
-                  <th>Time</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {[...events].reverse().map((event) => (
-                  <tr key={event.id}>
-                    <td className="employee-name">
-                      {event.user}
-                    </td>
-
-                    <td>{event.event}</td>
-                    <td>{event.risk_score}</td>
-                    <td>{event.trust_score}</td>
-
-                    <td>
-                      <span
-                        className={decisionClass(
-                          event.decision
-                        )}
-                      >
-                        {event.decision}
-                      </span>
-                    </td>
-
-                    <td>
-                      {new Date(
-                        event.created_at
-                      ).toLocaleString()}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          {events.length === 0 && (
-            <div className="empty-state">
-              No security events are currently available.
-            </div>
-          )}
-        </section>
+        
       </div>
     </main>
   );
