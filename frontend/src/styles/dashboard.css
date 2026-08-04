@@ -2512,3 +2512,143 @@ button:hover {
     height: 76px;
   }
 }
+.hybrid-analysis-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.hybrid-analysis-kicker {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #38bdf8;
+}
+
+.hybrid-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hybrid-status-ready {
+  color: #166534;
+  background: #dcfce7;
+  border: 1px solid #bbf7d0;
+}
+
+.hybrid-status-review {
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #fde68a;
+}
+
+.hybrid-result-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.hybrid-result-card {
+  display: flex;
+  min-height: 135px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.hybrid-result-card:nth-child(2) {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.hybrid-result-card:nth-child(3) {
+  background: #f5f3ff;
+  border-color: #ddd6fe;
+}
+
+.hybrid-final-card {
+  grid-column: 1 / -1;
+  min-height: 120px;
+  border-width: 2px;
+}
+
+.hybrid-allow {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.hybrid-allow .hybrid-result-value {
+  color: #15803d;
+}
+
+.hybrid-mfa {
+  background: #fffbeb;
+  border-color: #fcd34d;
+}
+
+.hybrid-mfa .hybrid-result-value {
+  color: #b45309;
+}
+
+.hybrid-block {
+  background: #fef2f2;
+  border-color: #fca5a5;
+}
+
+.hybrid-block .hybrid-result-value {
+  color: #dc2626;
+}
+
+.hybrid-review {
+  background: #faf5ff;
+  border-color: #d8b4fe;
+}
+
+.hybrid-review .hybrid-result-value {
+  color: #7e22ce;
+}
+
+.hybrid-result-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.hybrid-result-value {
+  margin: 16px 0;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #0f172a;
+}
+
+.hybrid-final-card .hybrid-result-value {
+  font-size: 30px;
+}
+
+.hybrid-result-caption {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+@media (max-width: 900px) {
+  .hybrid-result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hybrid-final-card {
+    grid-column: auto;
+  }
+}

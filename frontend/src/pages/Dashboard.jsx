@@ -88,6 +88,7 @@ const [hybridResult, setHybridResult] = useState(null);
     setHybridResult(response.data);
 
     await loadEvents();
+   
 
     setForm({
   user: "",
@@ -204,7 +205,7 @@ const [hybridResult, setHybridResult] = useState(null);
         <ExecutiveOverview />
         <CriticalAlertCenter refreshKey={events.length} />
 
-        <EmployeesTable />
+        <EmployeesTable refreshKey={events.length} />
 
         <UserProfile />
 
@@ -214,42 +215,109 @@ const [hybridResult, setHybridResult] = useState(null);
           submitEvent={submitEvent}
         />
         {hybridResult && (
-  <section className="panel">
+  <section className="panel hybrid-analysis-panel">
     <div className="panel-header">
       <div>
+        <p className="hybrid-analysis-kicker">
+          Hybrid Decision Intelligence
+        </p>
+
         <h2 className="panel-title">
           Hybrid AI Analysis
         </h2>
 
         <p className="panel-description">
-          Combined decision from the rule engine and
+          Combined assessment from the rule engine and
           Random Forest model.
         </p>
       </div>
+
+      <span
+        className={
+          hybridResult.review_required
+            ? "hybrid-status hybrid-status-review"
+            : "hybrid-status hybrid-status-ready"
+        }
+      >
+        {hybridResult.review_required
+          ? "Manual Review Required"
+          : "Decision Confirmed"}
+      </span>
     </div>
 
     <div className="hybrid-result-grid">
-      <div>
-        <strong>Rule Decision</strong>
-        <p>{hybridResult.rule_decision}</p>
-      </div>
+      <article className="hybrid-result-card">
+        <span className="hybrid-result-label">
+          Rule Engine
+        </span>
 
-      <div>
-        <strong>ML Prediction</strong>
-        <p>{hybridResult.ml_prediction}</p>
-      </div>
+        <strong className="hybrid-result-value">
+          {hybridResult.rule_decision}
+        </strong>
 
-      <div>
-        <strong>Confidence</strong>
-        <p>
-          {Math.round(hybridResult.ml_confidence * 100)}%
-        </p>
-      </div>
+        <span className="hybrid-result-caption">
+  {hybridResult.review_required
+    ? "Rule Engine and Random Forest disagreed. Manual review is required."
+    : "Rule Engine and Random Forest reached the same decision."}
+</span>
+      </article>
 
-      <div>
-        <strong>Hybrid Decision</strong>
-        <p>{hybridResult.hybrid_decision}</p>
-      </div>
+      <article className="hybrid-result-card">
+        <span className="hybrid-result-label">
+          Random Forest
+        </span>
+
+        <strong className="hybrid-result-value">
+          {hybridResult.ml_prediction}
+        </strong>
+
+        <span className="hybrid-result-caption">
+          Machine-learning prediction
+        </span>
+      </article>
+
+      <article className="hybrid-result-card">
+        <span className="hybrid-result-label">
+          Model Confidence
+        </span>
+
+        <strong className="hybrid-result-value">
+          {Math.round(
+            hybridResult.ml_confidence * 100
+          )}
+          %
+        </strong>
+
+        <span className="hybrid-result-caption">
+          Prediction probability
+        </span>
+      </article>
+
+      <article
+  className={`hybrid-result-card hybrid-final-card ${
+    hybridResult.hybrid_decision === "Allow"
+      ? "hybrid-allow"
+      : hybridResult.hybrid_decision === "Require MFA"
+      ? "hybrid-mfa"
+      : hybridResult.hybrid_decision === "Block"
+      ? "hybrid-block"
+      : "hybrid-review"
+  }`}
+>
+  <span className="hybrid-result-label">
+    Final Hybrid Decision
+  </span>
+
+  <strong className="hybrid-result-value">
+    {hybridResult.hybrid_decision}
+  </strong>
+
+  <span className="hybrid-result-caption">
+    {hybridResult.review_required
+      ? "Rule Engine and Random Forest disagreed. Manual review is required."
+      : "Rule Engine and Random Forest reached the same decision."}
+  </span>
+</article>
     </div>
   </section>
 )}
@@ -272,10 +340,7 @@ const [hybridResult, setHybridResult] = useState(null);
 
       <SummaryCards latest={latest} />
 
-      <div className="analysis-grid">
-        <AIExplanation latest={latest} />
-        <AIRecommendations latest={latest} />
-      </div>
+      
     </section>
 
     <RiskBreakdown latest={latest} />

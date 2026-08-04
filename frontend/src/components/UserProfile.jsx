@@ -1,6 +1,6 @@
 import { useState } from "react";
 import api from "../services/api";
-import EmployeeTrustHistory from "./EmployeeTrustHistory";
+
 
 export default function UserProfile() {
   const [username, setUsername] = useState("");
@@ -131,8 +131,7 @@ export default function UserProfile() {
               <h2>{profile.blocked_events}</h2>
             </div>
           </div>
-
-          <div
+                    <div
             style={{
               marginTop: "25px",
               padding: "18px",
@@ -141,20 +140,51 @@ export default function UserProfile() {
               borderLeft: `5px solid ${statusColor(profile.status)}`,
             }}
           >
-            <h3>🤖 AI Security Assessment</h3>
+            <h3>AI Security Insights</h3>
+
+            <h4>Assessment</h4>
 
             {profile.assessment?.length > 0 ? (
-              <ul style={{ marginBottom: 0 }}>
+              <ul>
                 {profile.assessment.map((item, index) => (
-                  <li key={index} style={{ marginBottom: "8px" }}>
-                    {item}
-                  </li>
+                  <li key={index}>{item}</li>
                 ))}
               </ul>
             ) : (
-              <p style={{ color: "#6b7280" }}>
-                No assessment available.
-              </p>
+              <p>No assessment available.</p>
+            )}
+
+            <h4 style={{ marginTop: "20px" }}>
+              Privilege Recommendation
+            </h4>
+
+            {profile.privilege_recommendation?.length > 0 ? (
+              <ul>
+                {profile.privilege_recommendation.map(
+                  (item, index) => (
+                    <li key={index}>{item}</li>
+                  )
+                )}
+              </ul>
+            ) : (
+              <p>No recommendation available.</p>
+            )}
+
+            <h4 style={{ marginTop: "20px" }}>
+              Security Awareness
+            </h4>
+
+            {profile.awareness_recommendation?.training?.length >
+            0 ? (
+              <ul>
+                {profile.awareness_recommendation.training.map(
+                  (course, index) => (
+                    <li key={index}>{course}</li>
+                  )
+                )}
+              </ul>
+            ) : (
+              <p>No training required.</p>
             )}
           </div>
 
@@ -168,7 +198,7 @@ export default function UserProfile() {
                 borderRadius: "10px",
               }}
             >
-              <h3>📊 Behavior Analytics</h3>
+              <h3>Behavior Analytics</h3>
 
               <div
                 style={{
@@ -179,11 +209,6 @@ export default function UserProfile() {
                   marginTop: "15px",
                 }}
               >
-                <div style={statBox}>
-                  <strong>Known Device Rate</strong>
-                  <h2>{profile.behavior.known_device_rate}%</h2>
-                </div>
-
                 <div style={statBox}>
                   <strong>Failed Login Rate</strong>
                   <h2>{profile.behavior.failed_login_rate}%</h2>
@@ -202,102 +227,7 @@ export default function UserProfile() {
             </div>
           )}
 
-          {profile.privilege_recommendation?.length > 0 && (
-            <div
-              style={{
-                marginTop: "25px",
-                padding: "18px",
-                background: "#fff7ed",
-                border: "1px solid #fed7aa",
-                borderRadius: "10px",
-                borderLeft: "5px solid #f97316",
-              }}
-            >
-              <h3>🔐 AI Privilege Recommendation</h3>
-
-              <ul style={{ marginBottom: 0 }}>
-                {profile.privilege_recommendation.map(
-                  (item, index) => (
-                    <li
-                      key={index}
-                      style={{ marginBottom: "8px" }}
-                    >
-                      {item}
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
-          )}
-
-          {profile.awareness_recommendation && (
-            <div
-              style={{
-                marginTop: "25px",
-                padding: "18px",
-                background: "#f0fdf4",
-                border: "1px solid #bbf7d0",
-                borderRadius: "10px",
-                borderLeft: `5px solid ${priorityColor(
-                  profile.awareness_recommendation.priority
-                )}`,
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "10px",
-                  flexWrap: "wrap",
-                }}
-              >
-                <h3 style={{ margin: 0 }}>
-                  🎓 AI Security Awareness
-                </h3>
-
-                <span
-                  style={{
-                    padding: "6px 12px",
-                    borderRadius: "999px",
-                    background: priorityColor(
-                      profile.awareness_recommendation.priority
-                    ),
-                    color: "white",
-                    fontWeight: "bold",
-                  }}
-                >
-                  {profile.awareness_recommendation.priority} Priority
-                </span>
-              </div>
-
-              <h4 style={{ marginBottom: "10px" }}>
-                Recommended Training
-              </h4>
-
-              {profile.awareness_recommendation.training?.length > 0 ? (
-                <ul style={{ marginBottom: 0 }}>
-                  {profile.awareness_recommendation.training.map(
-                    (course, index) => (
-                      <li
-                        key={index}
-                        style={{ marginBottom: "8px" }}
-                      >
-                        {course}
-                      </li>
-                    )
-                  )}
-                </ul>
-              ) : (
-                <p style={{ color: "#6b7280", marginBottom: 0 }}>
-                  No training is currently required.
-                </p>
-              )}
-            </div>
-          )}
-
-          <EmployeeTrustHistory username={profile.name} />
-        </div>
+                  </div>
       )}
     </div>
   );
@@ -309,3 +239,4 @@ const statBox = {
   borderRadius: "10px",
   background: "#ffffff",
 };
+

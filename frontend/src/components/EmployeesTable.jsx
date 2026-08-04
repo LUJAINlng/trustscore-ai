@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import api from "../services/api";
 
-export default function EmployeesTable() {
+export default function EmployeesTable({ refreshKey }) {
   const [employees, setEmployees] = useState([]);
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
@@ -17,8 +17,8 @@ export default function EmployeesTable() {
   };
 
   useEffect(() => {
-    loadEmployees();
-  }, []);
+  loadEmployees();
+}, [refreshKey]);
 
   const filteredEmployees = useMemo(() => {
     let result = [...employees];
