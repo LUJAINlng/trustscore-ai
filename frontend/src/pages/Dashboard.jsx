@@ -107,7 +107,7 @@ const [hybridResult, setHybridResult] = useState(null);
 };
 
   const latest =
-    events.length > 0 ? events[events.length - 1] : null;
+  events.length > 0 ? events[0] : null;
 
   const chartData = {
     labels: events.map((event) =>
@@ -263,9 +263,7 @@ const [hybridResult, setHybridResult] = useState(null);
       </article>
 
       <article className="hybrid-result-card">
-        <span className="hybrid-result-label">
-          Random Forest
-        </span>
+        <span className="hybrid-result-label"> Random Forest Model </span>
 
         <strong className="hybrid-result-value">
           {hybridResult.ml_prediction}
@@ -313,10 +311,10 @@ const [hybridResult, setHybridResult] = useState(null);
   </strong>
 
   <span className="hybrid-result-caption">
-    {hybridResult.review_required
-      ? "Rule Engine and Random Forest disagreed. Manual review is required."
-      : "Rule Engine and Random Forest reached the same decision."}
-  </span>
+  {hybridResult.review_required
+    ? "The current event appears low risk, but the user's accumulated trust history requires manual review."
+    : "Rule Engine and Random Forest reached the same decision."}
+</span>
 </article>
     </div>
   </section>
@@ -328,12 +326,11 @@ const [hybridResult, setHybridResult] = useState(null);
       <div className="panel-header">
         <div>
           <h2 className="panel-title">
-            Latest Security Analysis
+            Hybrid Security Event Analysis
           </h2>
 
           <p className="panel-description">
-            Decision and AI analysis for the most recent
-            identity event.
+            Summary of the latest identity event, including risk analysis and access decision.
           </p>
         </div>
       </div>

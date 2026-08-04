@@ -72,8 +72,7 @@ export default function RiskBreakdown({ latest }) {
           </h2>
 
           <p className="panel-description">
-            Security indicators that contributed to the latest
-            event risk score.
+            Security indicators contributing to the calculated risk score.
           </p>
         </div>
 
@@ -138,7 +137,7 @@ export default function RiskBreakdown({ latest }) {
 
           <aside className="risk-decision-card">
             <span className="risk-decision-label">
-              Access Decision
+              FINAL ACCESS DECISION
             </span>
 
             <strong
@@ -162,9 +161,7 @@ export default function RiskBreakdown({ latest }) {
             </div>
 
             <p className="risk-decision-note">
-              The access decision was generated from the
-              accumulated risk indicators and the employee's
-              current trust score.
+              The final access decision was determined using the calculated risk score, trust score, and security policy.
             </p>
           </aside>
         </div>

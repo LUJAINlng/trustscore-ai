@@ -25,11 +25,7 @@ export default function UserProfile() {
     return "#dc2626";
   };
 
-  const priorityColor = (priority) => {
-    if (priority === "Low") return "#16a34a";
-    if (priority === "Medium") return "#f59e0b";
-    return "#dc2626";
-  };
+  
 
   return (
     <div
@@ -41,7 +37,7 @@ export default function UserProfile() {
         marginBottom: "30px",
       }}
     >
-      <h2>👤 Employee Trust Profile</h2>
+      <h2>Employee Trust Profile</h2>
 
       <div
         style={{
@@ -79,7 +75,7 @@ export default function UserProfile() {
             cursor: "pointer",
           }}
         >
-          Search
+          Search Employee
         </button>
       </div>
 
@@ -91,8 +87,8 @@ export default function UserProfile() {
           }}
         >
           <h3 style={{ marginBottom: "15px" }}>
-            👤 {profile.name}
-          </h3>
+  {profile.name}
+</h3>
 
           <div
             style={{
@@ -140,9 +136,9 @@ export default function UserProfile() {
               borderLeft: `5px solid ${statusColor(profile.status)}`,
             }}
           >
-            <h3>AI Security Insights</h3>
+            <h3>AI Security Assessment</h3>
 
-            <h4>Assessment</h4>
+            <h4>Security Assessment</h4>
 
             {profile.assessment?.length > 0 ? (
               <ul>
@@ -155,7 +151,7 @@ export default function UserProfile() {
             )}
 
             <h4 style={{ marginTop: "20px" }}>
-              Privilege Recommendation
+              Privilege Recommendations
             </h4>
 
             {profile.privilege_recommendation?.length > 0 ? (
@@ -171,7 +167,7 @@ export default function UserProfile() {
             )}
 
             <h4 style={{ marginTop: "20px" }}>
-              Security Awareness
+              Security Awareness Recommendations
             </h4>
 
             {profile.awareness_recommendation?.training?.length >

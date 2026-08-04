@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from fastapi import APIRouter, Depends
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from app.database import get_db
@@ -21,30 +22,52 @@ from app.services.user_service import (
 
 router = APIRouter()
 
+
+def normalize_username(username: str) -> str:
+    return username.strip().lower()
+
+
 @router.post("/events")
 def receive_event(
     event: EventRequest,
     db: Session = Depends(get_db),
 ):
-    user = get_or_create_user(db, event.user)
+    normalized_username = normalize_username(event.user)
 
-    risk, reasons = calculate_risk(event.model_dump())
+    user = get_or_create_user(
+        db,
+        normalized_username,
+    )
+
+    risk, reasons = calculate_risk(
+        event.model_dump()
+    )
 
     ml_result = predict_identity_risk({
-    "failed_login_count": event.failed_login_count,
-    "impossible_travel": 0,
-    "new_device": int(event.device == "new"),
-    "vpn_detected": int(event.vpn),
-    "tor_network": 0,
-    "privileged_account": int(event.privileged_account),
-    "mfa_enabled": 1,
-    "login_hour": event.hour,
-    "geo_risk": int(event.location == "new_country"),
-    "device_reputation": int(event.device == "new"),
-})
+        "failed_login_count": event.failed_login_count,
+        "impossible_travel": 0,
+        "new_device": int(event.device == "new"),
+        "vpn_detected": int(event.vpn),
+        "tor_network": 0,
+        "privileged_account": int(
+            event.privileged_account
+        ),
+        "mfa_enabled": 1,
+        "login_hour": event.hour,
+        "geo_risk": int(
+            event.location == "new_country"
+        ),
+        "device_reputation": int(
+            event.device == "new"
+        ),
+    })
 
     current_score = user.trust_score
-    trust_score = max(0, min(100, current_score - risk))
+
+    trust_score = max(
+        0,
+        min(100, current_score - risk),
+    )
 
     if trust_score >= 80:
         decision = "Allow"
@@ -69,14 +92,19 @@ def receive_event(
         reasons,
     )
 
-    update_trust_score(db, user, trust_score)
+    update_trust_score(
+        db,
+        user,
+        trust_score,
+    )
+
     user.status = decision
 
     db.commit()
     db.refresh(user)
 
     new_event = Event(
-        user=event.user,
+        user=normalized_username,
         event=event.event,
         risk_score=risk,
         trust_score=trust_score,
@@ -90,7 +118,7 @@ def receive_event(
     db.refresh(new_event)
 
     return {
-        "user": event.user,
+        "user": normalized_username,
         "risk_score": risk,
         "trust_score": trust_score,
         "rule_decision": decision,
@@ -101,14 +129,22 @@ def receive_event(
         "reasons": reasons,
         "recommendations": recommendations,
     }
+
+
 @router.get("/events")
-def get_events(db: Session = Depends(get_db)):
-    events = db.query(Event).all()
+def get_events(
+    db: Session = Depends(get_db),
+):
+    events = (
+        db.query(Event)
+        .order_by(Event.created_at.desc())
+        .all()
+    )
 
     return [
         {
             "id": event.id,
-            "user": event.user,
+            "user": normalize_username(event.user),
             "event": event.event,
             "risk_score": event.risk_score,
             "trust_score": event.trust_score,
@@ -129,7 +165,14 @@ def get_user(
     username: str,
     db: Session = Depends(get_db),
 ):
-    user = get_or_create_user(db, username)
+    normalized_username = normalize_username(
+        username
+    )
+
+    user = get_or_create_user(
+        db,
+        normalized_username,
+    )
 
     return {
         "name": user.name,
@@ -143,66 +186,85 @@ def get_profile(
     username: str,
     db: Session = Depends(get_db),
 ):
-    user = get_or_create_user(db, username)
+    normalized_username = normalize_username(
+        username
+    )
+
+    user = get_or_create_user(
+        db,
+        normalized_username,
+    )
 
     events = (
         db.query(Event)
-        .filter(Event.user == username)
+        .filter(
+            func.lower(Event.user)
+            == normalized_username
+        )
         .all()
     )
 
     total_events = len(events)
 
     failed = len([
-        event
-        for event in events
-        if event.event == "failed_login"
+        stored_event
+        for stored_event in events
+        if stored_event.event == "failed_login"
     ])
 
     blocked = len([
-        event
-        for event in events
-        if event.decision == "Block"
+        stored_event
+        for stored_event in events
+        if stored_event.decision == "Block"
     ])
 
     known_device_events = len([
-        event
-        for event in events
+        stored_event
+        for stored_event in events
         if "New Device (+30)" not in (
-            event.reasons.split(", ")
-            if event.reasons
+            stored_event.reasons.split(", ")
+            if stored_event.reasons
             else []
         )
     ])
 
     new_country_events = len([
-        event
-        for event in events
+        stored_event
+        for stored_event in events
         if "New Country (+25)" in (
-            event.reasons.split(", ")
-            if event.reasons
+            stored_event.reasons.split(", ")
+            if stored_event.reasons
             else []
         )
     ])
 
     vpn_events = len([
-        event
-        for event in events
+        stored_event
+        for stored_event in events
         if "VPN Detected (+20)" in (
-            event.reasons.split(", ")
-            if event.reasons
+            stored_event.reasons.split(", ")
+            if stored_event.reasons
             else []
         )
     ])
 
     failed_login_rate = (
-        round((failed / total_events) * 100, 1)
+        round(
+            (failed / total_events) * 100,
+            1,
+        )
         if total_events > 0
         else 0
     )
 
     known_device_rate = (
-        round((known_device_events / total_events) * 100, 1)
+        round(
+            (
+                known_device_events
+                / total_events
+            ) * 100,
+            1,
+        )
         if total_events > 0
         else 0
     )
@@ -213,17 +275,21 @@ def get_profile(
         blocked,
     )
 
-    privilege_recommendation = generate_privilege_recommendation(
-        user.trust_score,
-        failed,
-        blocked,
+    privilege_recommendation = (
+        generate_privilege_recommendation(
+            user.trust_score,
+            failed,
+            blocked,
+        )
     )
 
-    awareness_recommendation = generate_awareness_recommendation(
-        user.trust_score,
-        failed,
-        vpn_events,
-        new_country_events,
+    awareness_recommendation = (
+        generate_awareness_recommendation(
+            user.trust_score,
+            failed,
+            vpn_events,
+            new_country_events,
+        )
     )
 
     return {
@@ -234,41 +300,69 @@ def get_profile(
         "failed_logins": failed,
         "blocked_events": blocked,
         "assessment": assessment,
-        "privilege_recommendation": privilege_recommendation,
-        "awareness_recommendation": awareness_recommendation,
+        "privilege_recommendation": (
+            privilege_recommendation
+        ),
+        "awareness_recommendation": (
+            awareness_recommendation
+        ),
         "behavior": {
-            "known_device_rate": known_device_rate,
-            "failed_login_rate": failed_login_rate,
-            "new_country_events": new_country_events,
+            "known_device_rate": (
+                known_device_rate
+            ),
+            "failed_login_rate": (
+                failed_login_rate
+            ),
+            "new_country_events": (
+                new_country_events
+            ),
             "vpn_events": vpn_events,
         },
     }
 
 
 @router.get("/employees")
-def get_employees(db: Session = Depends(get_db)):
+def get_employees(
+    db: Session = Depends(get_db),
+):
     users = db.query(User).all()
     employees = []
+    processed_usernames = set()
 
     for user in users:
+        normalized_username = normalize_username(
+            user.name
+        )
+
+        if normalized_username in processed_usernames:
+            continue
+
+        processed_usernames.add(
+            normalized_username
+        )
+
         events = (
             db.query(Event)
-            .filter(Event.user == user.name)
+            .filter(
+                func.lower(Event.user)
+                == normalized_username
+            )
             .all()
         )
 
         total_events = len(events)
 
         blocked_events = len([
-            event
-            for event in events
-            if event.decision == "Block"
+            stored_event
+            for stored_event in events
+            if stored_event.decision == "Block"
         ])
 
         failed_logins = len([
-            event
-            for event in events
-            if event.event == "failed_login"
+            stored_event
+            for stored_event in events
+            if stored_event.event
+            == "failed_login"
         ])
 
         if user.trust_score >= 80:
@@ -279,7 +373,7 @@ def get_employees(db: Session = Depends(get_db)):
             risk_level = "High"
 
         employees.append({
-            "name": user.name,
+            "name": normalized_username,
             "trust_score": user.trust_score,
             "status": user.status,
             "risk_level": risk_level,
@@ -296,9 +390,16 @@ def get_profile_history(
     username: str,
     db: Session = Depends(get_db),
 ):
+    normalized_username = normalize_username(
+        username
+    )
+
     events = (
         db.query(Event)
-        .filter(Event.user == username)
+        .filter(
+            func.lower(Event.user)
+            == normalized_username
+        )
         .order_by(Event.created_at.asc())
         .all()
     )
@@ -312,4 +413,4 @@ def get_profile_history(
             "created_at": event.created_at,
         }
         for event in events
-    ] 
+    ]

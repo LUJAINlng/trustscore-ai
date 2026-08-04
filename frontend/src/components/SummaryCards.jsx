@@ -47,7 +47,7 @@ export default function SummaryCards({ latest }) {
 
       <article className="latest-card">
         <span className="latest-card-label">
-          Decision
+          Access Decision
         </span>
 
         <div style={{ marginTop: "16px" }}>

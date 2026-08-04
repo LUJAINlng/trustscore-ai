@@ -124,9 +124,7 @@ export default function EmployeesTable({ refreshKey }) {
         }}
       >
         <div>
-          <h2 style={{ margin: 0 }}>
-            👥 Organization Employees ({employees.length})
-          </h2>
+          <h2>Organization Employees ({filteredEmployees.length})</h2>
 
           <p
             style={{

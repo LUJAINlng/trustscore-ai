@@ -1,9 +1,16 @@
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 from app.models.models import User
 
 
 def get_or_create_user(db: Session, username: str):
-    user = db.query(User).filter(User.name == username).first()
+    username = username.strip().lower()
+
+    user = (
+        db.query(User)
+        .filter(func.lower(User.name) == username)
+        .first()
+    )
 
     if not user:
         user = User(
